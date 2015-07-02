@@ -1,0 +1,24 @@
+// Typography
+$base-font-family: $sans-serif;
+$heading-font-family: $serif;
+
+// Font Sizes
+$base-font-size: 1rem !default;
+
+// Line height
+$base-line-height: 1.5 !default;
+$heading-line-height: 1.2 !default;
+
+// Other Sizes
+$base-border-radius: em(3) !default;
+$base-spacing: $base-line-height * 1em !default;
+$small-spacing: $base-spacing / 2 !default;
+$base-z-index: 0;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($accent, $lightness: -5%, $alpha: -.3);

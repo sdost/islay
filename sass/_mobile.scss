@@ -1,0 +1,219 @@
+@include media($mobile) {
+  $base-border-radius: em(10);
+  $base-font-size: 2rem;
+
+  $card-image-height: em(250);
+  $card-content-min-height: em(200);
+  $card-margin: 2.4em;
+
+  .cards {
+    @include display(flex);
+    @include flex-flow(column no-wrap);
+  }
+
+  .card {
+    @include flex(auto);
+    border-radius: $base-border-radius;
+    margin: $card-margin * 1.1 $card-margin;
+    width: 100%;
+
+    &.featured {
+      @include flex(auto);
+      @include order(1);
+    }
+  }
+
+  .card-img-container {
+    .card-img {
+      @include border-top-radius($base-border-radius);
+      height: $card-image-height;
+    }
+  }
+
+  .card-content {
+    @include border-bottom-radius($base-border-radius);
+    min-height: $card-content-min-height;
+
+    h1 {
+      font-size: $base-font-size * 3;
+    }
+  }
+
+  .meta-author img {
+    height: em(120);
+    top: em(-60);
+    width: em(120);
+  }
+
+  .card-meta span {
+    font-size: $base-font-size;
+  }
+
+  .post-title h1 {
+    font-size: $base-font-size * 3;
+    line-height: $heading-line-height * 1.1;
+  }
+
+  .post-byline h2 {
+    font-size: $base-font-size * 1.5;
+    line-height: $heading-line-height;
+  }
+
+  .post-author-img img {
+    bottom: em(-60);
+    height: em(120);
+    width: em(120);
+  }
+
+  .post-body {
+    h1 {
+      font-size: $base-font-size * 2;
+    }
+
+    h2 {
+      font-size: $base-font-size * 1.5;
+    }
+
+    h3 {
+      font-size: $base-font-size * 1.17;
+    }
+
+    h4 {
+      font-size: $base-font-size;
+    }
+
+    h5 {
+      font-size: $base-font-size * .83;
+    }
+
+    h6 {
+      font-size: $base-font-size * .67;
+    }
+
+    p {
+      font-size: $base-font-size;
+    }
+
+    code {
+      border-radius: $base-border-radius * 1.5;
+      font-family: $sans-serif-mono;
+      font-size: $base-font-size * 1.2;
+    }
+
+    blockquote {
+      border-radius: $base-border-radius * 1.5;
+
+      &:before {
+        font-size: $base-font-size * 4;
+      }
+
+      &:after {
+        font-size: $base-font-size * 4;
+      }
+    }
+
+    ul {
+      font-size: $base-font-size;
+    }
+
+    ol {
+      font-size: $base-font-size;
+    }
+  }
+
+  .menu {
+    height: em(100);
+  }
+
+  .menu-button {
+    @include span-columns(1);
+    display: block;
+    height: em(80);
+    position: absolute;
+    right: em(5);
+    top: em(10);
+    width: em(80);
+  }
+
+  .menu-logo {
+    @include span-columns(1);
+    display: block;
+    left: em(10);
+    position: absolute;
+    top: em(5);
+
+    img {
+      height: em(90);
+      left: 0;
+      opacity: .9;
+      top: 0;
+      width: em(90);
+    }
+  }
+
+  .menu-nav {
+    @include clearfix;
+    display: none;
+    position: absolute;
+    top: em(100);
+    width: 100%;
+
+    nav ul {
+      @include display(flex);
+      @include flex-flow(column);
+      @include align-items(center);
+      @include size(100% auto);
+    }
+  }
+
+  .nav-item {
+    background-color: $dark;
+    border: 1px solid shade($dark, 1%);
+    display: block;
+    margin: 0;
+    padding: $small-spacing 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+
+    a {
+      font-size: $base-font-size * 2.5;
+      text-transform: uppercase;
+    }
+  }
+
+  .menu-search {
+    @include span-columns(1);
+    @include display(flex);
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include size(auto 100%);
+    margin-left: $base-spacing * 8;
+    margin-right: $base-spacing * 8;
+
+    input {
+      border-radius: $base-border-radius * 1.5;
+      line-height: $base-line-height * 2;
+    }
+
+    .search-icon {
+      top: em(8);
+      font-size: $base-font-size;
+    }
+  }
+
+  .site-main {
+      min-height: 100vh;
+  }
+
+  .site-footer {
+    clear: both;
+    height: em(100);
+    position: relative;
+  }
+
+  .footer-copyright span {
+    font-size: $base-font-size;
+  }
+}

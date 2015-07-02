@@ -1,0 +1,116 @@
+$card-border-color: $light;
+$card-border: 1px solid $card-border-color;
+$card-background: lighten($card-border-color, 10%);
+$card-header-background: $card-background;
+$card-hover-background: lighten($card-background, 5%);
+$card-image-height: em(175) !default;
+$card-content-min-height: 100px !default;
+$card-margin: 1.5em !default;
+$card-author-img-border: 2px solid $white;
+
+.cards {
+  @include display(flex);
+  @include fill-parent();
+  @include flex-flow(row wrap);
+  @include justify-content(center);
+  padding: $small-spacing;
+}
+
+.card {
+  @include flex(1);
+  @include margin(null $card-margin $card-margin*2 $card-margin);
+  @include transition(all $base-duration $base-timing);
+  border-radius: $base-border-radius;
+  box-shadow: 0 0 1px darken($light, 10%);
+  min-width: em(336);
+  position: relative;
+
+  &.featured {
+    @include flex(2);
+  }
+
+  a {
+    color: $accent;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: shade($accent, 35%);
+    }
+  }
+
+  &:focus,
+  &:hover {
+    background-color: $card-hover-background;
+
+    .card-content {
+      background-color: $card-hover-background;
+    }
+  }
+
+  &:active {
+    background-color: $card-background;
+
+    .card-content {
+      background-color: $card-background;
+    }
+  }
+}
+
+.card-img-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  .card-img {
+    @include border-top-radius($base-border-radius);
+    background-position: top center;
+    background-size: cover;
+    display: block;
+    height: $card-image-height;
+  }
+}
+
+.card-content {
+  @include border-bottom-radius($base-border-radius);
+  background: $card-header-background;
+  border-bottom: $card-border;
+  min-height: $card-content-min-height;
+  padding: $small-spacing $small-spacing $base-spacing;
+  position: relative;
+  text-align: center;
+
+  h1 {
+    font-family: $sans-serif;
+    font-size: $base-font-size * 2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: $heading-line-height * .8;
+    text-transform: uppercase;
+  }
+}
+
+.meta-box {
+  margin-right: em(20);
+}
+
+.card-meta {
+  margin-bottom: $base-spacing;
+
+  span {
+    font-family: $serif;
+    font-size: $base-font-size * .8;
+  }
+}
+
+.meta-author img {
+  @include transition(all $base-duration $base-timing);
+  background: $white;
+  border: $card-author-img-border;
+  border-radius: 50%;
+  height: em(50);
+  position: absolute;
+  right: em(15);
+  top: em(-25);
+  width: em(50);
+}

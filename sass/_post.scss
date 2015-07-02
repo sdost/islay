@@ -1,0 +1,199 @@
+$post-title-max-width: 1100px !default;
+$post-title-margin: 0 auto !default;
+$post-title-padding: 20% 15px !default;
+
+$post-title-shadow: 3px 3px rgba(0, 0, 0, .3);
+$post-byline-shadow: 1px 1px 0 rgba(0, 0, 0, .6);
+
+$post-author-img-border: 2px solid $light;
+
+.post-header {
+  background-position: center;
+  background-size: cover;
+  display: block;
+  position: relative;
+}
+
+.post-title {
+  margin: $post-title-margin;
+  max-width: $post-title-max-width;
+  padding: $post-title-padding;
+  text-align: center;
+  z-index: 1;
+
+  h1 {
+    color: $white;
+    font-size: $base-font-size * 6;
+    font-weight: 700;
+    line-height: $heading-line-height * 1.5;
+    margin-bottom: 25px;
+    text-shadow: $post-title-shadow;
+    text-transform: uppercase;
+  }
+}
+
+.post-byline h2 {
+  color: $white;
+  font-family: $serif;
+  font-size: $base-font-size * 2;
+  font-style: italic;
+  font-weight: 400;
+  line-height: $heading-line-height * 1.1;
+  text-shadow: $post-byline-shadow;
+}
+
+.post-author-img img {
+  background: $light;
+  border: $post-author-img-border;
+  border-radius: 50%;
+  bottom: em(-40);
+  height: em(80);
+  position: absolute;
+  right: em(15);
+  width: em(80);
+}
+
+.post-content {
+  @include clearfix();
+  display: block;
+  padding: $base-spacing * 2;
+}
+
+.post-body {
+  @include clearfix;
+  box-sizing: content-box;
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+
+  h1 {
+    font-family: $serif;
+    font-size: $base-font-size * 2;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: $heading-line-height;
+  }
+
+  h2 {
+    font-family: $serif;
+    font-size: $base-font-size * 1.5;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: $heading-line-height * 1.1;
+  }
+
+  h3 {
+    font-family: $serif;
+    font-size: $base-font-size * 1.17;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: $heading-line-height * 1.2;
+  }
+
+  h4 {
+    font-family: $serif;
+    font-size: $base-font-size;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: $base-line-height * .8;
+  }
+
+  h5 {
+    font-family: $serif;
+    font-size: $base-font-size * .83;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: $base-line-height * 1.1;
+  }
+
+  h6 {
+    font-family: $serif;
+    font-size: $base-font-size * .67;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: $base-line-height * 1.5;
+  }
+
+  p {
+    font-family: $sans-serif;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    margin-bottom: $base-line-height;
+  }
+
+  blockquote {
+    background: shade($light, 15%);
+    border-radius: $base-border-radius * 1.5;
+    margin: $small-spacing $base-spacing * 2;
+    padding: $small-spacing $base-spacing;
+    quotes: '\201C''\201D''\2018''\2019';
+
+    &:before {
+      color: $light;
+      content: open-quote;
+      font-family: $serif;
+      font-size: $base-font-size * 4;
+      line-height: $base-line-height * .2;
+      margin-right: $small-spacing * .1;
+      vertical-align: -.2em;
+    }
+
+    &:after {
+      color: $light;
+      content: close-quote;
+      font-family: $serif;
+      font-size: $base-font-size * 4;
+      line-height: $base-line-height * .2;
+      margin-left: $small-spacing * .1;
+      vertical-align: -.2em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      display: inline;
+      font-family: $serif;
+      font-style: italic;
+    }
+  }
+
+  hr {
+    border-bottom: 1px solid shade($accent, 25%);
+    margin: $base-spacing auto;
+    width: 75%;
+  }
+
+  code {
+    border-radius: $base-border-radius * 1.5;
+    font-family: $sans-serif-mono;
+    font-size: $base-font-size * .8;
+    font-style: normal;
+    margin: $small-spacing $base-spacing * 2;
+    padding: $small-spacing $base-spacing;
+    tab-size: 2;
+  }
+
+  ul {
+    @extend %default-ul;
+    font-family: $serif;
+    font-size: $base-font-size;
+    font-weight: 400;
+    line-height: $base-line-height;
+  }
+
+  ol {
+    @extend %default-ul;
+    font-family: $serif;
+    font-size: $base-font-size;
+    font-weight: 400;
+    line-height: $base-line-height;
+  }
+}

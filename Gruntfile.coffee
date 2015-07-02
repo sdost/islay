@@ -1,0 +1,68 @@
+module.exports = (grunt) ->
+
+  # Configuration
+  # =============
+  grunt.initConfig
+
+    pkg: grunt.file.readJSON 'package.json'
+
+    sass:
+      dist:
+        files: [
+          expand: true,
+          cwd: 'sass',
+          src: ['*.scss'],
+          dest: 'assets/css',
+          ext: '.css'
+        ]
+
+    coffee:
+      dist:
+        files: [
+          expand: true,
+          cwd: 'coffee',
+          src: ['*.coffee'],
+          dest: 'assets/js',
+          ext: '.js'
+        ]
+
+    watch:
+      options:
+        livereload: true
+
+      sass:
+        files: ['sass/*.scss'],
+        tasks: ['sass', 'notify:sass'],
+        options:
+          spawn: false
+
+      coffee:
+        files: ['coffee/*.coffee'],
+        tasks: ['coffee', 'notify:coffee'],
+        option:
+          spawn: false
+
+    notify:
+      default:
+        options:
+          title:'Grunt'
+          message: 'All tasks were processed'
+      sass:
+        options:
+          title:'Grunt watcher'
+          message: 'SASS files were processed'
+      coffee:
+        options:
+          title:'Grunt watcher'
+          message: 'Coffee files were processed'
+
+  grunt.loadNpmTasks 'grunt-contrib-coffee'
+  grunt.loadNpmTasks 'grunt-contrib-sass'
+  grunt.loadNpmTasks 'grunt-contrib-watch'
+  grunt.loadNpmTasks 'grunt-notify'
+
+  grunt.registerTask 'default', [
+    'sass'
+    'coffee'
+    'notify:default'
+  ]

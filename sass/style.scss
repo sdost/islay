@@ -1,0 +1,17 @@
+// Setup
+@import 'colors';
+@import 'fonts';
+@import 'settings';
+@import 'variables';
+
+// Layout
+@import 'base';
+@import 'menu';
+@import 'cards';
+@import 'post';
+@import 'pagination';
+@import 'footer';
+
+// Media Queies
+@import 'mobile';
+@import 'desktop';

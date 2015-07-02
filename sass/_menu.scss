@@ -1,0 +1,88 @@
+$menu-background-color: #324766;
+$menu-search-input-background-color: #dcdcdc;
+$menu-search-input-text-color: #545454;
+
+.menu {
+  @include fill-parent();
+  @include row(table);
+  background-position: center;
+  background-size: cover;
+  height: em(80);
+}
+
+.menu-button {
+  display: none;
+}
+
+.menu-nav {
+  @include span-columns(5);
+
+  nav ul {
+    @include display(flex);
+    @include flex-direction(row);
+    @include justify-content(flex-end);
+    @include size(auto 100%);
+  }
+}
+
+.nav-item {
+  display: inline;
+  margin-left: em(20);
+  margin-top: em(30);
+
+  a {
+    color: $accent;
+    font-size: $base-font-size;
+    font-style: normal;
+    font-weight: 700;
+    line-height: $heading-line-height;
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
+
+.menu-logo {
+  @include span-columns(1);
+  position: relative;
+
+  img {
+    height: em(70);
+    left: em(70);
+    opacity: .9;
+    position: absolute;
+    top: em(5);
+    width: em(70);
+  }
+}
+
+.menu-search {
+  @include span-columns(5);
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
+  @include size(auto 100%);
+  margin-left: $base-spacing * 6;
+  margin-right: $base-spacing * 2;
+  position: relative;
+
+  input {
+    background: $white;
+    border: 0;
+    color: $text;
+    font-family: $serif;
+    font-size: $base-font-size;
+    font-weight: 400;
+    line-height: $base-line-height;
+    margin: 0;
+    outline: 0;
+    text-align: left;
+  }
+
+  .search-icon {
+    color: $accent;
+    position: absolute;
+    right: em(5);
+    top: em(22);
+  }
+}

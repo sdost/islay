@@ -1,0 +1,29 @@
+<div class="loader">
+  <img src="{{asset 'img/example_loading.gif'}}" />
+</div>
+<script>
+  var controller = new ScrollMagic.Controller();
+  var max_pages = parseInt('{{pages}}');
+  var page = 2;
+  var scene = new ScrollMagic.Scene({ triggerElement: ".loader", triggerHook: "onEnter" })
+    .addTo(controller)
+    .on("enter", function (e) {
+      if (page > max_pages) {
+        scene.destroy();
+        $(".loader").remove();
+        return;
+      }
+
+      if (!$(".loader").hasClass("active")) {
+        $(".loader").addClass("active");
+        console.log("loading next page")
+        $.get('/page/'+page+'/', addPosts);
+      }
+    });
+  function addPosts(content) {
+    $(".cards").append($(content).find(".cards").children(".card"));
+    page++;
+    scene.update();
+    $(".loader").removeClass("active");
+  }
+</script>
