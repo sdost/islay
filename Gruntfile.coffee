@@ -1,3 +1,8 @@
+path           = require('path')
+
+escapeChar     = process.platform.match(/^win/) ? '^' : '\\'
+cwd            = process.cwd().replace(/( |\(|\))/g, escapeChar + '$1')
+
 module.exports = (grunt) ->
 
   # Configuration
@@ -63,10 +68,15 @@ module.exports = (grunt) ->
           title:'Grunt watcher'
           message: 'Coffee files were processed'
 
+  grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
+  grunt.loadNpmTasks 'grunt-contrib-compress'
+  grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-sass'
+  grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-notify'
+  grunt.loadNpmTasks 'grunt-shell'
 
   grunt.registerTask 'init', [
     'shell:bower',
