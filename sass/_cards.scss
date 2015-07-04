@@ -30,12 +30,12 @@ $card-author-img-border: 2px solid $white;
   }
 
   a {
-    color: $accent;
+    color: $action-color;
 
     &:active,
     &:focus,
     &:hover {
-      color: shade($accent, 35%);
+      color: shade($action-color, 35%);
     }
   }
 

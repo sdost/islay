@@ -23,6 +23,7 @@ $post-author-img-border: 2px solid $light;
 
   h1 {
     color: $white;
+    font-family: $sans-serif;
     font-size: $base-font-size * 6;
     font-weight: 700;
     line-height: $heading-line-height * 1.5;
@@ -56,144 +57,15 @@ $post-author-img-border: 2px solid $light;
 .post-content {
   @include clearfix();
   display: block;
-  padding: $base-spacing * 2;
+  margin-left: $base-spacing;
+  margin-right: $base-spacing;
 }
 
 .post-body {
   @include clearfix;
+  background-color: $white;
+  border-radius: $base-border-radius;
   box-sizing: content-box;
-
-  h1,
-  h2,
-  h3,
-  p {
-    margin: 0;
-  }
-
-  h1 {
-    font-family: $serif;
-    font-size: $base-font-size * 2;
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: $heading-line-height;
-  }
-
-  h2 {
-    font-family: $serif;
-    font-size: $base-font-size * 1.5;
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: $heading-line-height * 1.1;
-  }
-
-  h3 {
-    font-family: $serif;
-    font-size: $base-font-size * 1.17;
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: $heading-line-height * 1.2;
-  }
-
-  h4 {
-    font-family: $serif;
-    font-size: $base-font-size;
-    font-style: italic;
-    font-weight: 700;
-    margin-bottom: $base-line-height * .8;
-  }
-
-  h5 {
-    font-family: $serif;
-    font-size: $base-font-size * .83;
-    font-style: italic;
-    font-weight: 700;
-    margin-bottom: $base-line-height * 1.1;
-  }
-
-  h6 {
-    font-family: $serif;
-    font-size: $base-font-size * .67;
-    font-style: italic;
-    font-weight: 700;
-    margin-bottom: $base-line-height * 1.5;
-  }
-
-  p {
-    font-family: $sans-serif;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    margin-bottom: $base-line-height;
-  }
-
-  blockquote {
-    background: shade($light, 15%);
-    border-radius: $base-border-radius * 1.5;
-    margin: $small-spacing $base-spacing * 2;
-    padding: $small-spacing $base-spacing;
-    quotes: '\201C''\201D''\2018''\2019';
-
-    &:before {
-      color: $light;
-      content: open-quote;
-      font-family: $serif;
-      font-size: $base-font-size * 4;
-      line-height: $base-line-height * .2;
-      margin-right: $small-spacing * .1;
-      vertical-align: -.2em;
-    }
-
-    &:after {
-      color: $light;
-      content: close-quote;
-      font-family: $serif;
-      font-size: $base-font-size * 4;
-      line-height: $base-line-height * .2;
-      margin-left: $small-spacing * .1;
-      vertical-align: -.2em;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-      display: inline;
-      font-family: $serif;
-      font-style: italic;
-    }
-  }
-
-  hr {
-    border-bottom: 1px solid shade($accent, 25%);
-    margin: $base-spacing auto;
-    width: 75%;
-  }
-
-  code {
-    border-radius: $base-border-radius * 1.5;
-    font-family: $sans-serif-mono;
-    font-size: $base-font-size * .8;
-    font-style: normal;
-    margin: $small-spacing $base-spacing * 2;
-    padding: $small-spacing $base-spacing;
-    tab-size: 2;
-  }
-
-  ul {
-    @extend %default-ul;
-    font-family: $serif;
-    font-size: $base-font-size;
-    font-weight: 400;
-    line-height: $base-line-height;
-  }
-
-  ol {
-    @extend %default-ul;
-    font-family: $serif;
-    font-size: $base-font-size;
-    font-weight: 400;
-    line-height: $base-line-height;
-  }
+  margin: $base-spacing * 3 $base-spacing;
+  padding: $base-spacing;
 }

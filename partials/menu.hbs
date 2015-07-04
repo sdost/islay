@@ -3,9 +3,11 @@
     {{navigation}}
   </div>
   <div class="menu-logo">
-    <a href="{{@blog.url}}">
-      <img src="{{@blog.logo}}" height="50" width="50">
-    </a>
+    {{#if @blog.logo}}
+      <a href="{{@blog.url}}">
+        <img src="{{@blog.logo}}" height="50" width="50">
+      </a>
+    {{/if}}
   </div>
   <div class="menu-search">
     <form class="site-search">

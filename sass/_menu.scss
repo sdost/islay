@@ -31,7 +31,7 @@ $menu-search-input-text-color: #545454;
   margin-top: em(30);
 
   a {
-    color: $accent;
+    color: $action-color;
     font-size: $base-font-size;
     font-style: normal;
     font-weight: 700;
@@ -69,7 +69,7 @@ $menu-search-input-text-color: #545454;
   input {
     background: $white;
     border: 0;
-    color: $text;
+    color: $base-font-color;
     font-family: $serif;
     font-size: $base-font-size;
     font-weight: 400;
@@ -80,7 +80,7 @@ $menu-search-input-text-color: #545454;
   }
 
   .search-icon {
-    color: $accent;
+    color: $action-color;
     position: absolute;
     right: em(5);
     top: em(22);
