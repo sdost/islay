@@ -68,6 +68,11 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-notify'
 
+  grunt.registerTask 'init', [
+    'shell:bower',
+    'default'
+  ]
+
   grunt.registerTask 'default', [
     'sass'
     'coffee'
