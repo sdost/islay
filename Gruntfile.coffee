@@ -26,6 +26,13 @@ module.exports = (grunt) ->
           ext: '.js'
         ]
 
+    shell:
+      bower:
+        command: path.resolve(cwd + '/node_modules/.bin/bower --allow-root install'),
+        options:
+          stdout: true,
+          stdin: false
+
     watch:
       options:
         livereload: true
