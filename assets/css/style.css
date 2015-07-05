@@ -217,7 +217,8 @@ picture {
 .site-nav {
   width: 100%;
   background-color: #324766;
-  border-bottom: 1px solid #324766; }
+  border-bottom: 1px solid #324766;
+  box-sizing: border-box; }
 
 .site-main {
   width: 100%;
@@ -230,8 +231,9 @@ picture {
   width: 100%;
   background-color: #324766;
   border-top: 1px solid #dcdcdc;
+  box-sizing: border-box;
   clear: both;
-  height: 1.25em;
+  height: 1.875em;
   position: relative; }
 
 .menu {
@@ -681,6 +683,7 @@ article {
     margin-right: auto; }
 
 .footer-copyright {
+  margin: 0 auto;
   text-align: center;
   width: 100%; }
   .footer-copyright span {
