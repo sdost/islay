@@ -178,7 +178,8 @@ h6 {
   font-family: "Droid Serif", serif;
   font-size: 1rem;
   line-height: 1.2;
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.75em;
+  text-rendering: optimizeLegibility; }
 
 p {
   margin: 0 0 0.75em; }
@@ -221,6 +222,7 @@ picture {
 .site-main {
   width: 100%;
   background-color: #dcdcdc;
+  box-sizing: border-box;
   min-height: 100vh;
   position: relative; }
 
@@ -229,7 +231,7 @@ picture {
   background-color: #324766;
   border-top: 1px solid #dcdcdc;
   clear: both;
-  height: 2.5em;
+  height: 1.25em;
   position: relative; }
 
 .menu {
@@ -377,6 +379,34 @@ picture {
   -ms-flex-pack: center;
   padding: 0.75em; }
 
+.cards-header {
+  background-color: #bfbfbf;
+  margin: 0 auto;
+  padding: 1.5em 0;
+  text-align: center; }
+  .cards-header img {
+    -webkit-transition: all 150ms ease;
+    -moz-transition: all 150ms ease;
+    transition: all 150ms ease;
+    background: #fff;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    height: 7.5em;
+    margin: 0 auto;
+    width: 7.5em; }
+  .cards-header h1 {
+    font-family: "Droid Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase; }
+  .cards-header h2 {
+    border-top: 1px solid #dcdcdc;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.75em;
+    padding: 1.5em; }
+
 .card {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -512,10 +542,6 @@ picture {
   display: block;
   margin-left: 1.5em;
   margin-right: 1.5em; }
-  .post-content::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 .post-body {
   background-color: #fff;
@@ -523,58 +549,61 @@ picture {
   box-sizing: content-box;
   margin: 4.5em 1.5em;
   padding: 1.5em; }
-  .post-body::after {
-    clear: both;
-    content: "";
-    display: table; }
+
+.post-comments {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding: 1.5em; }
 
 article {
-  text-align: left; }
+  font-family: "Droid Sans", sans-serif;
+  line-height: 1.6;
+  overflow: hidden;
+  text-align: left;
+  word-wrap: break-word; }
   article::after {
     clear: both;
     content: "";
     display: table; }
-  article h1 {
-    font-family: "Droid Serif", serif;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    margin: 1.2 0; }
-  article h2 {
-    font-family: "Droid Serif", serif;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    margin: 1.32 0; }
-  article h3 {
-    font-family: "Droid Serif", serif;
-    font-size: 1.17rem;
-    font-style: normal;
-    font-weight: 700;
-    margin: 1.44 0; }
-  article h4 {
-    font-family: "Droid Serif", serif;
-    font-size: 1rem;
-    font-style: italic;
-    font-weight: 700;
-    margin: 1.2 0; }
-  article h5 {
-    font-family: "Droid Serif", serif;
-    font-size: 0.83rem;
-    font-style: italic;
-    font-weight: 700;
-    margin: 1.65 0; }
+  article a {
+    background-color: transparent; }
+    article a:active, article a:hover {
+      outline: 0; }
+  article h1,
+  article h2,
+  article h3,
+  article h4,
+  article h5,
   article h6 {
-    font-family: "Droid Serif", serif;
-    font-size: 0.67rem;
-    font-style: italic;
     font-weight: 700;
-    margin: 2.25 0; }
-  article p {
-    font-family: "Droid Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 1.5 0; }
+    line-height: 1.2;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+    position: relative; }
+  article h1 {
+    font-size: 2.25rem;
+    padding-bottom: 0.3em; }
+  article h2 {
+    font-size: 1.75rem;
+    padding-bottom: 0.3em; }
+  article h3 {
+    font-size: 1.5rem;
+    line-height: 1.425; }
+  article h4 {
+    font-size: 1.25rem; }
+  article h5 {
+    font-size: 1rem; }
+  article h6 {
+    font-size: 1rem; }
+  article p,
+  article blockquote,
+  article ul,
+  article ol,
+  article dl,
+  article table,
+  article pre {
+    margin-bottom: 1em;
+    margin-top: 0; }
   article blockquote {
     margin: 0.75em 3em;
     padding: 0.75em 1.5em;
@@ -595,6 +624,10 @@ article {
       line-height: 0.3;
       margin-left: 0.075em;
       vertical-align: -.35em; }
+    article blockquote:first-child {
+      margin-top: 0; }
+    article blockquote:last-child {
+      margin-bottom: 0; }
     article blockquote h1,
     article blockquote h2,
     article blockquote h3,
@@ -607,28 +640,38 @@ article {
       font-style: italic; }
   article hr {
     border-bottom: 1px solid #8aa28b;
+    box-sizing: content-box;
+    height: 0;
     margin: 1.5em auto;
     width: 75%; }
   article code {
     font-family: "Droid Sans Mono", monospace;
-    font-size: 0.8rem;
-    font-style: normal; }
+    font-size: 0.75rem; }
   article pre {
     border-radius: 0.28125em;
     margin: 0.75em 3em; }
     article pre code {
       padding: 0.75em 1.5em;
       tab-size: 2; }
-  article ul {
-    font-family: "Droid Serif", serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5; }
+  article ul,
   article ol {
     font-family: "Droid Serif", serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5; }
+    line-height: 1.5;
+    padding-left: 2em; }
+    article ul ol,
+    article ol ol {
+      list-style-type: lower-roman; }
+      article ul ol ol,
+      article ol ol ol {
+        list-style-type: lower-alpha; }
+    article ul ul,
+    article ol ul {
+      margin-bottom: 0; }
+  article img {
+    max-width: 100%;
+    box-sizing: border-box; }
 
 .loader {
   width: 100%; }
@@ -718,33 +761,36 @@ article {
     height: 7.5em;
     width: 7.5em; }
 
-  .post-body h1 {
+  .post-body {
+    border-radius: 0.625em; }
+
+  article h1 {
     font-size: 4rem; }
-  .post-body h2 {
+  article h2 {
     font-size: 3rem; }
-  .post-body h3 {
+  article h3 {
     font-size: 2.34rem; }
-  .post-body h4 {
+  article h4 {
     font-size: 2rem; }
-  .post-body h5 {
+  article h5 {
     font-size: 1.66rem; }
-  .post-body h6 {
+  article h6 {
     font-size: 1.34rem; }
-  .post-body p {
+  article p {
     font-size: 2rem; }
-  .post-body code {
+  article code {
     border-radius: 0.9375em;
     font-family: "Droid Sans Mono", monospace;
     font-size: 2.4rem; }
-  .post-body blockquote {
+  article blockquote {
     border-radius: 0.9375em; }
-    .post-body blockquote:before {
+    article blockquote:before {
       font-size: 8rem; }
-    .post-body blockquote:after {
+    article blockquote:after {
       font-size: 8rem; }
-  .post-body ul {
+  article ul {
     font-size: 2rem; }
-  .post-body ol {
+  article ol {
     font-size: 2rem; }
 
   .menu {

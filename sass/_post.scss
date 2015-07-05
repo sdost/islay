@@ -55,17 +55,21 @@ $post-author-img-border: 2px solid $light;
 }
 
 .post-content {
-  @include clearfix();
   display: block;
   margin-left: $base-spacing;
   margin-right: $base-spacing;
 }
 
 .post-body {
-  @include clearfix;
   background-color: $white;
   border-radius: $base-border-radius;
   box-sizing: content-box;
   margin: $base-spacing * 3 $base-spacing;
+  padding: $base-spacing;
+}
+
+.post-comments {
+  margin-left: $base-spacing;
+  margin-right: $base-spacing;
   padding: $base-spacing;
 }

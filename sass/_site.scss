@@ -12,6 +12,7 @@
 .site-main {
   @include fill-parent();
   background-color: $light;
+  box-sizing: border-box;
   min-height: 100vh;
   position: relative;
 }
@@ -21,6 +22,6 @@
   background-color: $dark;
   border-top: 1px solid $light;
   clear: both;
-  height: em(40);
+  height: em(20);
   position: relative;
 }

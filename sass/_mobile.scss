@@ -66,6 +66,10 @@
   }
 
   .post-body {
+    border-radius: $base-border-radius;
+  }
+
+  article {
     h1 {
       font-size: $base-font-size * 2;
     }
