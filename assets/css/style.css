@@ -382,8 +382,9 @@ picture {
   padding: 0.75em; }
 
 .cards-header {
-  background-color: #bfbfbf;
-  margin: 0 auto;
+  border-bottom: 1px solid #8aa28b;
+  margin: 0 3em;
+  margin-bottom: 0.75em;
   padding: 1.5em 0;
   text-align: center; }
   .cards-header img {
@@ -400,8 +401,7 @@ picture {
     font-family: "Droid Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 0;
-    text-transform: uppercase; }
+    margin: 0; }
   .cards-header h2 {
     border-top: 1px solid #dcdcdc;
     font-size: 1rem;
@@ -556,6 +556,33 @@ picture {
   margin-left: 1.5em;
   margin-right: 1.5em;
   padding: 1.5em; }
+
+.page-header {
+  background-position: center;
+  background-size: cover;
+  display: block;
+  position: relative; }
+
+.page-title {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0.75em 1.5em;
+  text-align: center;
+  z-index: 1; }
+  .page-title h1 {
+    font-family: "Droid Sans", sans-serif;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 1.2; }
+
+.page-content {
+  box-sizing: border-box;
+  display: block; }
+
+.page-body {
+  box-sizing: content-box;
+  margin: 0 0 1.5em;
+  text-align: center; }
 
 article {
   font-family: "Droid Sans", sans-serif;

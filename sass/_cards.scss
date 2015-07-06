@@ -17,8 +17,9 @@ $card-author-img-border: 2px solid $white;
 }
 
 .cards-header {
-  background-color: shade($base-background-color, 25%);
-  margin: 0 auto;
+  border-bottom: 1px solid shade($action-color, 25%);
+  margin: 0 $base-spacing * 2;
+  margin-bottom: $small-spacing;
   padding: $base-spacing 0;
   text-align: center;
 
@@ -37,7 +38,6 @@ $card-author-img-border: 2px solid $white;
     font-size: $base-font-size * 1.5;
     font-weight: 700;
     margin: 0;
-    text-transform: uppercase;
   }
 
   h2 {
