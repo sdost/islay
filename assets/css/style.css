@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 html {
   box-sizing: border-box; }
 
@@ -16,14 +16,14 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #b8d8ba;
+  background-color: #39536a;
   border-radius: 0.1875em;
   border: none;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Droid Sans", sans-serif;
-  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
   font-weight: 600;
   line-height: 1;
   padding: 0.75em 1em;
@@ -34,7 +34,7 @@ button {
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
-    background-color: #87bd8a;
+    background-color: #1e2c38;
     color: #fff; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
   button:disabled {
@@ -42,8 +42,8 @@ button {
     opacity: 0.5; }
 
 fieldset {
-  background-color: #f6f6f6;
-  border: 1px solid #dcdcdc;
+  background-color: #e4e4e5;
+  border: 1px solid #cacacc;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
@@ -51,8 +51,8 @@ input,
 label,
 select {
   display: block;
-  font-family: "Droid Sans", sans-serif;
-  font-size: 1rem; }
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem; }
 
 label {
   font-weight: 600;
@@ -65,13 +65,13 @@ label {
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
 select[multiple=multiple],
 textarea {
-  background-color: #fff;
-  border: 1px solid #dcdcdc;
+  background-color: #fdfbf6;
+  border: 1px solid #cacacc;
   border-radius: 0.1875em;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "Droid Sans", sans-serif;
-  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
   margin-bottom: 0.75em;
   padding: 0.5em;
   transition: border-color;
@@ -79,12 +79,12 @@ textarea {
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select[multiple=multiple]:hover,
   textarea:hover {
-    border-color: #c3c3c3; }
+    border-color: #b0b0b3; }
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border-color: #b8d8ba;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(168, 207, 170, 0.7);
+    border-color: #39536a;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(48, 70, 89, 0.7);
     outline: none; }
 
 textarea {
@@ -144,13 +144,13 @@ table {
   width: 100%; }
 
 th {
-  border-bottom: 1px solid #b6b6b6;
+  border-bottom: 1px solid #a3a3a6;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
 td {
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid #cacacc;
   padding: 0.75em 0; }
 
 tr,
@@ -164,9 +164,9 @@ body {
   -ms-font-feature-settings: "kern", "liga", "pnum";
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
-  color: #272932;
-  font-family: "Droid Sans", sans-serif;
-  font-size: 1rem;
+  color: #505051;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
   line-height: 1.5; }
 
 h1,
@@ -175,8 +175,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Droid Serif", serif;
-  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
   line-height: 1.2;
   margin: 0 0 0.75em;
   text-rendering: optimizeLegibility; }
@@ -185,16 +185,16 @@ p {
   margin: 0 0 0.75em; }
 
 a {
-  color: #b8d8ba;
+  color: #39536a;
   text-decoration: none;
   transition: color 0.1s linear; }
   a:active, a:focus, a:hover {
-    color: #87bd8a; }
+    color: #1e2c38; }
   a:active, a:focus {
     outline: none; }
 
 hr {
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid #cacacc;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -216,21 +216,20 @@ picture {
 
 .site-nav {
   width: 100%;
-  background-color: #324766;
-  border-bottom: 1px solid #324766;
+  background-color: #3e4e7f;
   box-sizing: border-box; }
 
 .site-main {
   width: 100%;
-  background-color: #dcdcdc;
+  background-color: #fdfbf6;
   box-sizing: border-box;
   min-height: 100vh;
   position: relative; }
 
 .site-footer {
   width: 100%;
-  background-color: #324766;
-  border-top: 1px solid #dcdcdc;
+  background-color: #3e4e7f;
+  border-top: 0.06em solid #f4e6cc;
   box-sizing: border-box;
   clear: both;
   height: 1.875em;
@@ -247,6 +246,10 @@ picture {
 
 .menu-button {
   display: none; }
+  .menu-button i {
+    color: #6087a9; }
+    .menu-button i:active, .menu-button i:focus, .menu-button i:hover {
+      color: #a2b9cd; }
 
 .menu-nav {
   display: table-cell;
@@ -285,15 +288,17 @@ picture {
   display: inline;
   margin-left: 1.25em;
   margin-top: 1.875em; }
-  .nav-item a {
-    color: #b8d8ba;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0;
+  .nav-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.44rem;
+    font-weight: 400;
     text-align: right;
+    text-shadow: 0 0em 0 #2d395d;
     text-transform: uppercase; }
+  .nav-item a {
+    color: #6087a9; }
+    .nav-item a:active, .nav-item a:focus, .nav-item a:hover {
+      color: #a2b9cd; }
 
 .menu-logo {
   display: table-cell;
@@ -342,18 +347,18 @@ picture {
   margin-right: 3em;
   position: relative; }
   .menu-search input {
-    background: #fff;
+    background: #cacacc;
     border: 0;
-    color: #272932;
-    font-family: "Droid Serif", serif;
-    font-size: 1rem;
+    color: #505051;
+    font-family: "Source Serif Pro", serif;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
     outline: 0;
     text-align: left; }
   .menu-search .search-icon {
-    color: #b8d8ba;
+    color: #39536a;
     position: absolute;
     right: 0.3125em;
     top: 1.375em; }
@@ -382,7 +387,7 @@ picture {
   padding: 0.75em; }
 
 .cards-header {
-  border-bottom: 1px solid #8aa28b;
+  border-bottom: 1px solid #1d243a;
   margin: 0 3em;
   margin-bottom: 0.75em;
   padding: 1.5em 0;
@@ -391,20 +396,21 @@ picture {
     -webkit-transition: all 150ms ease;
     -moz-transition: all 150ms ease;
     transition: all 150ms ease;
-    background: #fff;
-    border: 4px solid #fff;
+    background: #fbf6ee;
+    border: 4px solid #fbf6ee;
     border-radius: 50%;
     height: 7.5em;
     margin: 0 auto;
     width: 7.5em; }
   .cards-header h1 {
-    font-family: "Droid Sans", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
+    color: #39536a;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.44rem;
+    font-weight: 900;
     margin: 0; }
   .cards-header h2 {
-    border-top: 1px solid #dcdcdc;
-    font-size: 1rem;
+    border-top: 1px solid #cacacc;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 0.75em;
     padding: 1.5em; }
@@ -424,7 +430,7 @@ picture {
   -moz-transition: all 150ms ease;
   transition: all 150ms ease;
   border-radius: 0.1875em;
-  box-shadow: 0 0 1px #c3c3c3;
+  box-shadow: 0 0.03em 0.06em #ebd1a2;
   min-width: 21em;
   position: relative; }
   .card.featured {
@@ -436,17 +442,17 @@ picture {
     -ms-flex: 2;
     flex: 2; }
   .card a {
-    color: #b8d8ba; }
+    color: #39536a; }
     .card a:active, .card a:focus, .card a:hover {
-      color: #778c78; }
+      color: #6087a9; }
   .card:focus, .card:hover {
-    background-color: white; }
+    background-color: #fffffe; }
     .card:focus .card-content, .card:hover .card-content {
-      background-color: white; }
+      background-color: #fffffe; }
   .card:active {
-    background-color: #f6f6f6; }
+    background-color: #fbf6ee; }
     .card:active .card-content {
-      background-color: #f6f6f6; }
+      background-color: #fbf6ee; }
 
 .card-img-container {
   overflow: hidden;
@@ -463,17 +469,17 @@ picture {
 .card-content {
   border-bottom-left-radius: 0.1875em;
   border-bottom-right-radius: 0.1875em;
-  background: #f6f6f6;
-  border-bottom: 1px solid #dcdcdc;
+  background: #fbf6ee;
+  border-bottom: 1px solid #cacacc;
   min-height: 100px;
   padding: 0.75em 0.75em 1.5em;
   position: relative;
   text-align: center; }
   .card-content h1 {
-    font-family: "Droid Sans", sans-serif;
-    font-size: 2rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2.7rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 0.96;
     text-transform: uppercase; }
 
@@ -483,15 +489,15 @@ picture {
 .card-meta {
   margin-bottom: 1.5em; }
   .card-meta span {
-    font-family: "Droid Serif", serif;
-    font-size: 0.8rem; }
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.96rem; }
 
 .meta-author img {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
   transition: all 150ms ease;
-  background: #fff;
-  border: 2px solid #fff;
+  background: #fbf6ee;
+  border: 0.2em solid #fbf6ee;
   border-radius: 50%;
   height: 3.125em;
   position: absolute;
@@ -512,27 +518,27 @@ picture {
   text-align: center;
   z-index: 1; }
   .post-title h1 {
-    color: #fff;
-    font-family: "Droid Sans", sans-serif;
+    color: #fdfbf6;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 6rem;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.8;
     margin-bottom: 25px;
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: -0.06em 0.06em 0.02em rgba(50, 71, 102, 0.5);
     text-transform: uppercase; }
 
 .post-byline h2 {
-  color: #fff;
-  font-family: "Droid Serif", serif;
-  font-size: 2rem;
+  color: #fdfbf6;
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.44rem;
   font-style: italic;
   font-weight: 400;
   line-height: 1.32;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6); }
+  text-shadow: -0.04em 0.04em 0.02em rgba(50, 71, 102, 0.5); }
 
 .post-author-img img {
-  background: #dcdcdc;
-  border: 2px solid #dcdcdc;
+  background: #fdfbf6;
+  border: 0.3em solid #fdfbf6;
   border-radius: 50%;
   bottom: -2.5em;
   height: 5em;
@@ -546,10 +552,8 @@ picture {
   margin-right: 1.5em; }
 
 .post-body {
-  background-color: #fff;
-  border-radius: 0.1875em;
   box-sizing: content-box;
-  margin: 4.5em 1.5em;
+  margin: 1.5em;
   padding: 1.5em; }
 
 .post-comments {
@@ -570,8 +574,8 @@ picture {
   text-align: center;
   z-index: 1; }
   .page-title h1 {
-    font-family: "Droid Sans", sans-serif;
-    font-size: 3.125rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 3.75rem;
     font-weight: 700;
     line-height: 1.2; }
 
@@ -585,7 +589,7 @@ picture {
   text-align: center; }
 
 article {
-  font-family: "Droid Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 1.6;
   overflow: hidden;
   text-align: left;
@@ -606,24 +610,32 @@ article {
   article h6 {
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 0.75em;
-    margin-top: 0.75em;
     position: relative; }
   article h1 {
-    font-size: 2.25rem;
-    padding-bottom: 0.3em; }
+    font-size: 2.7rem;
+    margin-bottom: .67em;
+    margin-top: .67em; }
   article h2 {
-    font-size: 1.75rem;
-    padding-bottom: 0.3em; }
+    font-size: 2.1rem;
+    margin-bottom: .83em;
+    margin-top: .83em; }
   article h3 {
-    font-size: 1.5rem;
-    line-height: 1.425; }
+    font-size: 1.8rem;
+    line-height: 1.425;
+    margin-bottom: 1em;
+    margin-top: 1em; }
   article h4 {
-    font-size: 1.25rem; }
+    font-size: 1.5rem;
+    margin-bottom: 1.33em;
+    margin-top: 1.33em; }
   article h5 {
-    font-size: 1rem; }
+    font-size: 1.2rem;
+    margin-bottom: 1.67em;
+    margin-top: 1.67em; }
   article h6 {
-    font-size: 1rem; }
+    font-size: 1.2rem;
+    margin-bottom: 2.33em;
+    margin-top: 2.33em; }
   article p,
   article blockquote,
   article ul,
@@ -631,25 +643,26 @@ article {
   article dl,
   article table,
   article pre {
+    font-size: 1.2rem;
     margin-bottom: 1em;
-    margin-top: 0; }
+    margin-top: 1em; }
   article blockquote {
-    margin: 0.75em 3em;
-    padding: 0.75em 1.5em;
+    margin: 0.75em;
+    padding: 0.75em;
     quotes: "“" "”" "‘" "’"; }
     article blockquote:before {
-      color: #dcdcdc;
+      color: #39536a;
       content: open-quote;
-      font-family: "Droid Serif", serif;
-      font-size: 4rem;
+      font-family: "Source Serif Pro", serif;
+      font-size: 4.8rem;
       line-height: 0.3;
       margin-right: 0.075em;
       vertical-align: -.35em; }
     article blockquote:after {
-      color: #dcdcdc;
+      color: #39536a;
       content: close-quote;
-      font-family: "Droid Serif", serif;
-      font-size: 4rem;
+      font-family: "Source Serif Pro", serif;
+      font-size: 4.8rem;
       line-height: 0.3;
       margin-left: 0.075em;
       vertical-align: -.35em; }
@@ -665,17 +678,17 @@ article {
     article blockquote h6,
     article blockquote p {
       display: inline;
-      font-family: "Droid Serif", serif;
+      font-family: "Source Serif Pro", serif;
       font-style: italic; }
   article hr {
-    border-bottom: 1px solid #8aa28b;
+    border-bottom: 1px solid #2d4254;
     box-sizing: content-box;
     height: 0;
     margin: 1.5em auto;
     width: 75%; }
   article code {
-    font-family: "Droid Sans Mono", monospace;
-    font-size: 0.75rem; }
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.9rem; }
   article pre {
     border-radius: 0.28125em;
     margin: 0.75em 3em; }
@@ -684,8 +697,8 @@ article {
       tab-size: 2; }
   article ul,
   article ol {
-    font-family: "Droid Serif", serif;
-    font-size: 1rem;
+    font-family: "Source Serif Pro", serif;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5;
     padding-left: 2em; }
@@ -699,8 +712,8 @@ article {
     article ol ul {
       margin-bottom: 0; }
   article img {
-    max-width: 100%;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    max-width: 100%; }
 
 .loader {
   width: 100%; }
@@ -710,13 +723,14 @@ article {
     margin-right: auto; }
 
 .footer-copyright {
+  color: #6087a9;
   margin: 0 auto;
   text-align: center;
+  text-shadow: 0 -0.06em 0 #2d395d;
   width: 100%; }
   .footer-copyright span {
-    color: #b8d8ba;
-    font-family: "Droid Sans", sans-serif;
-    font-size: 0.8rem; }
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.96rem; }
 
 @media screen and (max-device-width: 25.875em) {
   .cards {
@@ -730,6 +744,14 @@ article {
     -webkit-flex-flow: column no-wrap;
     -moz-flex-flow: column no-wrap;
     flex-flow: column no-wrap; }
+
+  .cards-header img {
+    height: 12.5em;
+    width: 12.5em; }
+  .cards-header h1 {
+    font-size: 2.4rem; }
+  .cards-header h2 {
+    font-size: 2rem; }
 
   .card {
     -webkit-box-flex: auto;
@@ -783,7 +805,7 @@ article {
     line-height: 1.32; }
 
   .post-byline h2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     line-height: 1.2; }
 
   .post-author-img img {
@@ -793,6 +815,10 @@ article {
 
   .post-body {
     border-radius: 0.625em; }
+
+  .page-title h1 {
+    font-size: 6.25rem;
+    line-height: 1.2; }
 
   article h1 {
     font-size: 4rem; }
@@ -810,7 +836,7 @@ article {
     font-size: 2rem; }
   article code {
     border-radius: 0.9375em;
-    font-family: "Droid Sans Mono", monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 2.4rem; }
   article blockquote {
     border-radius: 0.9375em; }
@@ -883,18 +909,17 @@ article {
       width: 100%; }
 
   .nav-item {
-    background-color: #324766;
-    border: 1px solid #314664;
+    background-color: #3e4e7f;
+    border: 1px solid #3c4c7c;
     display: block;
     margin: 0;
     padding: 0.75em 0;
     position: relative;
-    text-align: center;
     width: 100%;
     z-index: 2; }
-    .nav-item a {
+    .nav-item h2 {
       font-size: 5rem;
-      text-transform: uppercase; }
+      text-align: center; }
 
   .menu-search {
     display: table-cell;
@@ -933,8 +958,8 @@ article {
       border-radius: 0.9375em;
       line-height: 3; }
     .menu-search .search-icon {
-      top: 0.5em;
-      font-size: 2rem; }
+      font-size: 2rem;
+      top: 0.5em; }
 
   .site-main {
     min-height: 100vh; }

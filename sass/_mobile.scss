@@ -11,6 +11,21 @@
     @include flex-flow(column no-wrap);
   }
 
+  .cards-header {
+    img {
+      height: em(200);
+      width: em(200);
+    }
+
+    h1 {
+      font-size: $base-font-size * 1.2;
+    }
+
+    h2 {
+      font-size: $base-font-size;
+    }
+  }
+
   .card {
     @include flex(auto);
     border-radius: $base-border-radius;
@@ -55,7 +70,7 @@
   }
 
   .post-byline h2 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size * 1.2;
     line-height: $heading-line-height;
   }
 
@@ -67,6 +82,13 @@
 
   .post-body {
     border-radius: $base-border-radius;
+  }
+
+  .page-title {
+    h1 {
+      font-size: $base-font-size * 3.125;
+      line-height: $heading-line-height;
+    }
   }
 
   article {
@@ -171,19 +193,18 @@
   }
 
   .nav-item {
-    background-color: $dark;
-    border: 1px solid shade($dark, 1%);
+    background-color: $base-color;
+    border: 1px solid darken($base-color, 1%);
     display: block;
     margin: 0;
     padding: $small-spacing 0;
     position: relative;
-    text-align: center;
     width: 100%;
     z-index: 2;
 
-    a {
+    h2 {
       font-size: $base-font-size * 2.5;
-      text-transform: uppercase;
+      text-align: center;
     }
   }
 
@@ -202,13 +223,13 @@
     }
 
     .search-icon {
-      top: em(8);
       font-size: $base-font-size;
+      top: em(8);
     }
   }
 
   .site-main {
-      min-height: 100vh;
+    min-height: 100vh;
   }
 
   .site-footer {

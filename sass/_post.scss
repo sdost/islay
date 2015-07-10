@@ -2,10 +2,10 @@ $post-title-max-width: 1100px !default;
 $post-title-margin: 0 auto !default;
 $post-title-padding: 20% 15px !default;
 
-$post-title-shadow: 3px 3px rgba(0, 0, 0, .3);
-$post-byline-shadow: 1px 1px 0 rgba(0, 0, 0, .6);
+$post-title-shadow: -.06em .06em .02em rgba($shadow-color, .5);
+$post-byline-shadow: -.04em .04em .02em rgba($shadow-color, .5);
 
-$post-author-img-border: 2px solid $light;
+$post-author-img-border: .3em solid $base-background-color;
 
 .post-header {
   background-position: center;
@@ -22,10 +22,10 @@ $post-author-img-border: 2px solid $light;
   z-index: 1;
 
   h1 {
-    color: $white;
+    color: lighten($highlight-color, 10%);
     font-family: $sans-serif;
-    font-size: $base-font-size * 6;
-    font-weight: 700;
+    font-size: $base-font-size * 5;
+    font-weight: 900;
     line-height: $heading-line-height * 1.5;
     margin-bottom: 25px;
     text-shadow: $post-title-shadow;
@@ -34,9 +34,9 @@ $post-author-img-border: 2px solid $light;
 }
 
 .post-byline h2 {
-  color: $white;
+  color: lighten($highlight-color, 10%);
   font-family: $serif;
-  font-size: $base-font-size * 2;
+  font-size: $base-font-size * 1.2;
   font-style: italic;
   font-weight: 400;
   line-height: $heading-line-height * 1.1;
@@ -44,7 +44,7 @@ $post-author-img-border: 2px solid $light;
 }
 
 .post-author-img img {
-  background: $light;
+  background: $base-background-color;
   border: $post-author-img-border;
   border-radius: 50%;
   bottom: em(-40);
@@ -61,10 +61,8 @@ $post-author-img-border: 2px solid $light;
 }
 
 .post-body {
-  background-color: $white;
-  border-radius: $base-border-radius;
   box-sizing: content-box;
-  margin: $base-spacing * 3 $base-spacing;
+  margin: $base-spacing;
   padding: $base-spacing;
 }
 

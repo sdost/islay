@@ -1,12 +1,10 @@
-$card-border-color: $light;
-$card-border: 1px solid $card-border-color;
-$card-background: lighten($card-border-color, 10%);
+$card-border: $base-border;
+$card-background: darken($base-background-color, 2%);
 $card-header-background: $card-background;
-$card-hover-background: lighten($card-background, 5%);
+$card-hover-background: lighten($base-background-color, 2%);
 $card-image-height: em(175) !default;
 $card-content-min-height: 100px !default;
 $card-margin: 1.5em !default;
-$card-author-img-border: 2px solid $white;
 
 .cards {
   @include display(flex);
@@ -17,7 +15,7 @@ $card-author-img-border: 2px solid $white;
 }
 
 .cards-header {
-  border-bottom: 1px solid shade($action-color, 25%);
+  border-bottom: 1px solid darken($base-color, 20%);
   margin: 0 $base-spacing * 2;
   margin-bottom: $small-spacing;
   padding: $base-spacing 0;
@@ -25,8 +23,8 @@ $card-author-img-border: 2px solid $white;
 
   img {
     @include transition(all $base-duration $base-timing);
-    background: $white;
-    border: 4px solid $white;
+    background: $card-background;
+    border: 4px solid $card-background;
     border-radius: 50%;
     height: em(120);
     margin: 0 auto;
@@ -34,9 +32,10 @@ $card-author-img-border: 2px solid $white;
   }
 
   h1 {
+    color: $action-color;
     font-family: $sans-serif;
-    font-size: $base-font-size * 1.5;
-    font-weight: 700;
+    font-size: $base-font-size * 1.2;
+    font-weight: 900;
     margin: 0;
   }
 
@@ -54,7 +53,7 @@ $card-author-img-border: 2px solid $white;
   @include margin(null $card-margin $card-margin*2 $card-margin);
   @include transition(all $base-duration $base-timing);
   border-radius: $base-border-radius;
-  box-shadow: 0 0 1px darken($light, 10%);
+  box-shadow: 0 .03em .06em darken($base-background-color, 20%);
   min-width: em(336);
   position: relative;
 
@@ -68,7 +67,7 @@ $card-author-img-border: 2px solid $white;
     &:active,
     &:focus,
     &:hover {
-      color: shade($action-color, 35%);
+      color: lighten($action-color, 20%);
     }
   }
 
@@ -115,9 +114,9 @@ $card-author-img-border: 2px solid $white;
 
   h1 {
     font-family: $sans-serif;
-    font-size: $base-font-size * 2;
+    font-size: $base-font-size * 2.25;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: $heading-line-height * .8;
     text-transform: uppercase;
   }
@@ -131,15 +130,15 @@ $card-author-img-border: 2px solid $white;
   margin-bottom: $base-spacing;
 
   span {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: $base-font-size * .8;
   }
 }
 
 .meta-author img {
   @include transition(all $base-duration $base-timing);
-  background: $white;
-  border: $card-author-img-border;
+  background: $card-header-background;
+  border: .2em solid $card-header-background;
   border-radius: 50%;
   height: em(50);
   position: absolute;

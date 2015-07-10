@@ -2,7 +2,7 @@
     <ul>
         {{#foreach navigation}}
         <li class="nav-{{slug}} nav-item{{#if current}} nav-current{{/if}}">
-          <a href="{{url absolute="true"}}">{{label}}</a>
+          <h2><a href="{{url absolute="true"}}">{{label}}</a></h2>
         </li>
         {{/foreach}}
     </ul>

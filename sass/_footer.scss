@@ -1,10 +1,11 @@
 .footer-copyright {
+  color: lighten($action-color, 20%);
   margin: 0 auto;
   text-align: center;
+  text-shadow: 0 -.06em 0 darken($base-color, 10%);
   width: 100%;
 
   span {
-    color: $action-color;
     font-family: $sans-serif;
     font-size: $base-font-size * .8;
   }
