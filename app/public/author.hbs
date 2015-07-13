@@ -1,0 +1,16 @@
+{{!< default}}
+<div class="site-content">
+  {{#author}}
+    <div class="cards-header">
+      <img alt="" src="{{image}}" height="120" width="120" />
+      <h1>Posts by {{name}}</h1>
+    </div>
+  {{/author}}
+  <div class="cards">
+  {{#foreach posts}}
+    {{> card}}
+  {{/foreach}}
+  </div>
+
+  {{pagination}}
+</div>

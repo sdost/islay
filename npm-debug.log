@@ -1,0 +1,293 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sdost/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/Users/sdost/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch',
+5 verbose install   [ 'assetsmanager-brunch',
+5 verbose install     'bower',
+5 verbose install     'browser-sync-brunch',
+5 verbose install     'brunch',
+5 verbose install     'clean-css-brunch',
+5 verbose install     'css-brunch',
+5 verbose install     'javascript-brunch',
+5 verbose install     'sass-brunch',
+5 verbose install     'uglify-js-brunch' ] ]
+6 info preinstall islay-brunch@0.1.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'brunch@~1.8.3', null ]
+9 verbose cache add name=undefined spec="brunch@~1.8.3" args=["brunch@~1.8.3",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'brunch@~1.8.3',
+10 verbose parsed url   path: 'brunch@~1.8.3',
+10 verbose parsed url   href: 'brunch@~1.8.3' }
+11 verbose already installed skipping clean-css-brunch@>= 1.0 < 1.8 /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+12 verbose already installed skipping css-brunch@>= 1.0 < 1.8 /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+13 verbose cache add name="brunch" spec="~1.8.3" args=["brunch","~1.8.3"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '~1.8.3',
+14 verbose parsed url   path: '~1.8.3',
+14 verbose parsed url   href: '~1.8.3' }
+15 verbose addNamed [ 'brunch', '~1.8.3' ]
+16 verbose addNamed [ null, '>=1.8.3-0 <1.9.0-0' ]
+17 silly lockFile a96a434b-brunch-1-8-3 brunch@~1.8.3
+18 verbose lock brunch@~1.8.3 /Users/sdost/.npm/a96a434b-brunch-1-8-3.lock
+19 verbose already installed skipping javascript-brunch@>= 1.0 < 1.8 /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+20 silly addNameRange { name: 'brunch', range: '>=1.8.3-0 <1.9.0-0', hasData: false }
+21 verbose already installed skipping sass-brunch@~1.8.10 /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+22 verbose request where is /brunch
+23 verbose request registry https://registry.npmjs.org/
+24 verbose request id 08b800f9374aec52
+25 verbose url raw /brunch
+26 verbose url resolving [ 'https://registry.npmjs.org/', './brunch' ]
+27 verbose url resolved https://registry.npmjs.org/brunch
+28 verbose request where is https://registry.npmjs.org/brunch
+29 info trying registry request attempt 1 at 20:03:00
+30 verbose etag "BD4DDAFI2LOFVU5Q8A8PTT2ZV"
+31 http GET https://registry.npmjs.org/brunch
+32 verbose already installed skipping uglify-js-brunch@>= 1.0 < 1.8 /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+33 verbose already installed skipping assetsmanager-brunch@^1.8.1 /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+34 verbose already installed skipping bower@~1.4.1 /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+35 verbose cache add [ 'browser-sync-brunch@~0.0.10', null ]
+36 verbose cache add name=undefined spec="browser-sync-brunch@~0.0.10" args=["browser-sync-brunch@~0.0.10",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'browser-sync-brunch@~0.0.10',
+37 verbose parsed url   path: 'browser-sync-brunch@~0.0.10',
+37 verbose parsed url   href: 'browser-sync-brunch@~0.0.10' }
+38 verbose cache add name="browser-sync-brunch" spec="~0.0.10" args=["browser-sync-brunch","~0.0.10"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '~0.0.10',
+39 verbose parsed url   path: '~0.0.10',
+39 verbose parsed url   href: '~0.0.10' }
+40 verbose addNamed [ 'browser-sync-brunch', '~0.0.10' ]
+41 verbose addNamed [ null, '>=0.0.10-0 <0.1.0-0' ]
+42 silly lockFile 019f822a-browser-sync-brunch-0-0-10 browser-sync-brunch@~0.0.10
+43 verbose lock browser-sync-brunch@~0.0.10 /Users/sdost/.npm/019f822a-browser-sync-brunch-0-0-10.lock
+44 silly addNameRange { name: 'browser-sync-brunch',
+44 silly addNameRange   range: '>=0.0.10-0 <0.1.0-0',
+44 silly addNameRange   hasData: false }
+45 verbose request where is /browser-sync-brunch
+46 verbose request registry https://registry.npmjs.org/
+47 verbose url raw /browser-sync-brunch
+48 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync-brunch' ]
+49 verbose url resolved https://registry.npmjs.org/browser-sync-brunch
+50 verbose request where is https://registry.npmjs.org/browser-sync-brunch
+51 info trying registry request attempt 1 at 20:03:00
+52 verbose etag "5R1K37XH0EY5PFQWFKMJ3P83C"
+53 http GET https://registry.npmjs.org/browser-sync-brunch
+54 http 304 https://registry.npmjs.org/brunch
+55 silly registry.get cb [ 304,
+55 silly registry.get   { date: 'Mon, 13 Jul 2015 00:03:00 GMT',
+55 silly registry.get     via: '1.1 varnish',
+55 silly registry.get     'cache-control': 'max-age=60',
+55 silly registry.get     etag: '"BD4DDAFI2LOFVU5Q8A8PTT2ZV"',
+55 silly registry.get     age: '0',
+55 silly registry.get     connection: 'keep-alive',
+55 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+55 silly registry.get     'x-cache': 'MISS',
+55 silly registry.get     'x-cache-hits': '0',
+55 silly registry.get     'x-timer': 'S1436745780.893963,VS0,VE20',
+55 silly registry.get     vary: 'Accept' } ]
+56 verbose etag https://registry.npmjs.org/brunch from cache
+57 silly addNameRange number 2 { name: 'brunch', range: '>=1.8.3-0 <1.9.0-0', hasData: true }
+58 silly addNameRange versions [ 'brunch',
+58 silly addNameRange   [ '0.0.1',
+58 silly addNameRange     '0.0.2',
+58 silly addNameRange     '0.0.3',
+58 silly addNameRange     '0.0.4',
+58 silly addNameRange     '0.0.5',
+58 silly addNameRange     '0.0.6',
+58 silly addNameRange     '0.0.7',
+58 silly addNameRange     '0.0.8',
+58 silly addNameRange     '0.1.0',
+58 silly addNameRange     '0.1.1',
+58 silly addNameRange     '0.1.3',
+58 silly addNameRange     '0.1.4',
+58 silly addNameRange     '0.1.5',
+58 silly addNameRange     '0.1.6',
+58 silly addNameRange     '0.1.7',
+58 silly addNameRange     '0.1.8',
+58 silly addNameRange     '0.1.9',
+58 silly addNameRange     '0.2.0',
+58 silly addNameRange     '0.2.1',
+58 silly addNameRange     '0.2.2',
+58 silly addNameRange     '0.2.3',
+58 silly addNameRange     '0.2.4',
+58 silly addNameRange     '0.2.6',
+58 silly addNameRange     '0.2.7',
+58 silly addNameRange     '0.2.8',
+58 silly addNameRange     '0.3.0',
+58 silly addNameRange     '0.3.1',
+58 silly addNameRange     '0.3.2',
+58 silly addNameRange     '0.3.4',
+58 silly addNameRange     '0.3.5',
+58 silly addNameRange     '0.3.6',
+58 silly addNameRange     '0.3.7',
+58 silly addNameRange     '0.4.0',
+58 silly addNameRange     '0.4.1',
+58 silly addNameRange     '0.4.2',
+58 silly addNameRange     '0.4.3',
+58 silly addNameRange     '0.4.4',
+58 silly addNameRange     '0.4.5',
+58 silly addNameRange     '0.5.1',
+58 silly addNameRange     '0.5.2',
+58 silly addNameRange     '0.5.3',
+58 silly addNameRange     '0.5.4',
+58 silly addNameRange     '0.5.5',
+58 silly addNameRange     '0.5.6',
+58 silly addNameRange     '0.6.0',
+58 silly addNameRange     '0.6.1',
+58 silly addNameRange     '0.6.2',
+58 silly addNameRange     '0.7.0',
+58 silly addNameRange     '0.7.1',
+58 silly addNameRange     '0.7.2',
+58 silly addNameRange     '0.7.3',
+58 silly addNameRange     '0.7.4',
+58 silly addNameRange     '0.8.0',
+58 silly addNameRange     '0.8.1',
+58 silly addNameRange     '0.9.0-beta1',
+58 silly addNameRange     '0.9.0',
+58 silly addNameRange     '0.9.1',
+58 silly addNameRange     '1.0.0',
+58 silly addNameRange     '1.0.1',
+58 silly addNameRange     '1.0.2',
+58 silly addNameRange     '1.0.3',
+58 silly addNameRange     '1.1.0',
+58 silly addNameRange     '1.1.1',
+58 silly addNameRange     '1.1.2',
+58 silly addNameRange     '1.2.0',
+58 silly addNameRange     '1.2.1',
+58 silly addNameRange     '1.2.2',
+58 silly addNameRange     '1.3.0',
+58 silly addNameRange     '1.3.1',
+58 silly addNameRange     '1.3.2',
+58 silly addNameRange     '1.3.3',
+58 silly addNameRange     '1.3.4',
+58 silly addNameRange     '1.4.0',
+58 silly addNameRange     '1.4.1',
+58 silly addNameRange     '1.4.2',
+58 silly addNameRange     '1.4.3',
+58 silly addNameRange     '1.4.4',
+58 silly addNameRange     '1.4.5',
+58 silly addNameRange     '1.5.0',
+58 silly addNameRange     '1.5.1',
+58 silly addNameRange     '1.5.2',
+58 silly addNameRange     '1.5.3',
+58 silly addNameRange     '1.5.4',
+58 silly addNameRange     '1.6.0',
+58 silly addNameRange     '1.6.1',
+58 silly addNameRange     '1.6.2',
+58 silly addNameRange     '1.6.3',
+58 silly addNameRange     '1.6.4',
+58 silly addNameRange     '1.6.5',
+58 silly addNameRange     '1.6.6',
+58 silly addNameRange     '1.6.7',
+58 silly addNameRange     '1.7.0',
+58 silly addNameRange     '1.7.1',
+58 silly addNameRange     '1.7.2',
+58 silly addNameRange     '1.7.3',
+58 silly addNameRange     '1.7.4',
+58 silly addNameRange     '1.7.5',
+58 silly addNameRange     '1.7.6',
+58 silly addNameRange     '1.7.7',
+58 silly addNameRange     '1.7.8',
+58 silly addNameRange     '1.7.9',
+58 silly addNameRange     '1.7.10',
+58 silly addNameRange     '1.7.12',
+58 silly addNameRange     '1.7.13',
+58 silly addNameRange     '1.7.14',
+58 silly addNameRange     '1.7.15',
+58 silly addNameRange     '1.7.16',
+58 silly addNameRange     '1.7.17',
+58 silly addNameRange     '1.7.18',
+58 silly addNameRange     '1.7.19',
+58 silly addNameRange     '1.7.20',
+58 silly addNameRange     '1.8.0',
+58 silly addNameRange     '1.8.1',
+58 silly addNameRange     '1.8.2',
+58 silly addNameRange     '1.8.3' ] ]
+59 verbose addNamed [ 'brunch', '1.8.3' ]
+60 verbose addNamed [ '1.8.3', '1.8.3' ]
+61 silly lockFile 40694768-brunch-1-8-3 brunch@1.8.3
+62 verbose lock brunch@1.8.3 /Users/sdost/.npm/40694768-brunch-1-8-3.lock
+63 silly lockFile 40694768-brunch-1-8-3 brunch@1.8.3
+64 silly lockFile 40694768-brunch-1-8-3 brunch@1.8.3
+65 silly lockFile a96a434b-brunch-1-8-3 brunch@~1.8.3
+66 silly lockFile a96a434b-brunch-1-8-3 brunch@~1.8.3
+67 http 304 https://registry.npmjs.org/browser-sync-brunch
+68 silly registry.get cb [ 304,
+68 silly registry.get   { date: 'Mon, 13 Jul 2015 00:03:00 GMT',
+68 silly registry.get     via: '1.1 varnish',
+68 silly registry.get     'cache-control': 'max-age=60',
+68 silly registry.get     etag: '"5R1K37XH0EY5PFQWFKMJ3P83C"',
+68 silly registry.get     age: '0',
+68 silly registry.get     connection: 'keep-alive',
+68 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+68 silly registry.get     'x-cache': 'MISS',
+68 silly registry.get     'x-cache-hits': '0',
+68 silly registry.get     'x-timer': 'S1436745780.892353,VS0,VE91',
+68 silly registry.get     vary: 'Accept' } ]
+69 verbose etag https://registry.npmjs.org/browser-sync-brunch from cache
+70 silly addNameRange number 2 { name: 'browser-sync-brunch',
+70 silly addNameRange   range: '>=0.0.10-0 <0.1.0-0',
+70 silly addNameRange   hasData: true }
+71 silly addNameRange versions [ 'browser-sync-brunch',
+71 silly addNameRange   [ '0.0.1',
+71 silly addNameRange     '0.0.2',
+71 silly addNameRange     '0.0.3',
+71 silly addNameRange     '0.0.4',
+71 silly addNameRange     '0.0.5',
+71 silly addNameRange     '0.0.6',
+71 silly addNameRange     '0.0.7',
+71 silly addNameRange     '0.0.8',
+71 silly addNameRange     '0.0.9' ] ]
+72 silly lockFile 019f822a-browser-sync-brunch-0-0-10 browser-sync-brunch@~0.0.10
+73 silly lockFile 019f822a-browser-sync-brunch-0-0-10 browser-sync-brunch@~0.0.10
+74 error notarget No compatible version found: browser-sync-brunch@'>=0.0.10-0 <0.1.0-0'
+74 error notarget Valid install targets:
+74 error notarget ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.0.7","0.0.8","0.0.9"]
+74 error notarget
+74 error notarget This is most likely not a problem with npm itself.
+74 error notarget In most cases you or one of your dependencies are requesting
+74 error notarget a package version that doesn't exist.
+75 error System Darwin 14.4.0
+76 error command "/Users/sdost/.nvm/v0.10.35/bin/node" "/Users/sdost/.nvm/v0.10.35/bin/npm" "install"
+77 error cwd /Users/sdost/Projects/Ghost/ghost-islay/content/themes/islay-brunch
+78 error node -v v0.10.35
+79 error npm -v 1.4.28
+80 error code ETARGET
+81 verbose exit [ 1, true ]

@@ -1,34 +1,18 @@
 {
   "name": "islay",
   "version": "0.1.0",
-  "description": "Islay Theme (pronounced aye-luh)",
-  "author": "Samuel Dost",
-  "keywords": [
-    "ghost",
-    "scotch",
-    "theme"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sdost/islay.git"
+  "private": true,
+  "scripts": {
+    "start": "node_modules/.bin/brunch watch --server"
   },
-  "bugs": "https://github.com/sdost/islay/issues",
-  "contributors": "https://github.com/sdost/islay/graphs/contributors",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/sdost/islay/master/LICENSE"
-    }
-  ],
-  "dependencies"               : {},
-  "devDependencies"            : {
-    "bower": "~1.3.10",
-    "grunt": "~0.4.5",
-    "grunt-cli": "~0.1.13",
-    "grunt-contrib-coffee": "~0.13.0",
-    "grunt-contrib-sass": "~0.8.0",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-notify": "~0.2.12",
-    "grunt-shell": "~1.1.1"
+  "devDependencies": {
+    "assetsmanager-brunch": "^1.8.1",
+    "bower": "~1.4.1",
+    "brunch": "~1.8.3",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "sass-brunch": "1.7.0",
+    "uglify-js-brunch": ">= 1.0 < 1.8"
   }
 }

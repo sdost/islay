@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/scripts/scripts.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"assets/js/scripts.js","sourcesContent":["(function() {\n  $(function() {});\n\n}).call(this);\n"]}

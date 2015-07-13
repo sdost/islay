@@ -1,0 +1,22 @@
+<div id="post-{{id}}" class="card{{#if featured}} featured{{/if}}">
+  <div class="card-img-container">
+    <a class="card-img" href="{{url}}" style="background-image:url({{image}});"></a>
+  </div>
+  <div class="card-content">
+    <div class="card-meta">
+      <div class="meta-author">
+        {{#author}}
+        <a href="{{url}}">
+          <img alt="" src="{{image}}" height="50" width="50" />
+        </a>
+        {{/author}}
+      </div>
+      <span class="meta-date meta-box">{{date published_at timeago="true"}}</span>
+      <span class="meta-comment meta-box">
+        <i class="fa fa-comment-o"></i>
+        <a href="{{url}}#disqus_thread"></a>
+      </span>
+    </div>
+    <h1><a href="{{url}}">{{title}}</a></h1>
+  </div>
+</div>

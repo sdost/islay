@@ -9,9 +9,11 @@ article {
 
   a {
     background-color: transparent;
+    color: $accent-color;
 
     &:active,
     &:hover {
+      color: lighten($accent-color, 20%);
       outline: 0;
     }
   }
