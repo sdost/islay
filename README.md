@@ -1,4 +1,7 @@
-# islay-theme
+# islay (aye-luh)
+
+## Description
+A theme for ghost.
 
 ## Dependencies
 * [Bourbon](https://github.com/thoughtbot/bourbon)
