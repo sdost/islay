@@ -652,37 +652,17 @@ body {
   margin-right: 1.5em;
   padding: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_page\.scss}line{font-family:\000035}}
-.page-header {
-  background-position: center;
-  background-size: cover;
-  display: block;
-  position: relative; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_page\.scss}line{font-family:\0000312}}
-.page-title {
-  margin: 0 auto;
-  max-width: 1100px;
-  padding: 0.75em 1.5em;
-  text-align: center;
-  z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_page\.scss}line{font-family:\0000319}}
-  .page-title h1 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 3.125em;
-    font-weight: 700;
-    line-height: 1.2; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_page\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_page\.scss}line{font-family:\000031}}
 .page-content {
-  box-sizing: border-box;
-  display: block; }
+  display: block;
+  margin-left: 1.5em;
+  margin-right: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_page\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_page\.scss}line{font-family:\000037}}
 .page-body {
   box-sizing: content-box;
-  margin: 0 0 1.5em;
-  text-align: center; }
+  margin: 1.5em 20%;
+  padding: 1.5em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sdost\/Projects\/Ghost\/ghost-dokku\/content\/themes\/islay\/app\/styles\/_typography\.scss}line{font-family:\000031}}
 article {

@@ -1,36 +1,11 @@
-$page-title-max-width: 1100px !default;
-$page-title-margin: 0 auto !default;
-$page-title-padding: $small-spacing $base-spacing !default;
-
-.page-header {
-  background-position: center;
-  background-size: cover;
-  display: block;
-  position: relative;
-}
-
-.page-title {
-  margin: $page-title-margin;
-  max-width: $page-title-max-width;
-  padding: $page-title-padding;
-  text-align: center;
-  z-index: 1;
-
-  h1 {
-    font-family: $sans-serif;
-    font-size: $base-font-size * 3.125;
-    font-weight: 700;
-    line-height: $heading-line-height;
-  }
-}
-
 .page-content {
-  box-sizing: border-box;
   display: block;
+  margin-left: $base-spacing;
+  margin-right: $base-spacing;
 }
 
 .page-body {
   box-sizing: content-box;
-  margin: 0 0 $base-spacing;
-  text-align: center;
+  margin: $base-spacing 20%;
+  padding: $base-spacing;
 }
