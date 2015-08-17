@@ -1,1 +1,7 @@
-(function(){$(function(){})}).call(this);
+(function() {
+  $(function() {});
+
+}).call(this);
+
+
+//# sourceMappingURL=scripts.js.map

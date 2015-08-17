@@ -1,4 +1,8 @@
 // Site
+body {
+  margin: 0;
+}
+
 .site-wrapper {
   @include outer-container(100%);
 }

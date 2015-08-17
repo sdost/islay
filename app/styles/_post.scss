@@ -25,7 +25,7 @@ $post-author-img-border: .3em solid $base-background-color;
     color: lighten($highlight-color, 10%);
     font-family: $sans-serif;
     font-size: $base-font-size * 5;
-    font-weight: 900;
+    font-weight: 700;
     line-height: $heading-line-height * 1.5;
     margin-bottom: 25px;
     text-shadow: $post-title-shadow;
@@ -38,7 +38,7 @@ $post-author-img-border: .3em solid $base-background-color;
   font-family: $serif;
   font-size: $base-font-size * 1.2;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 700;
   line-height: $heading-line-height * 1.1;
   text-shadow: $post-byline-shadow;
 }
@@ -62,7 +62,7 @@ $post-author-img-border: .3em solid $base-background-color;
 
 .post-body {
   box-sizing: content-box;
-  margin: $base-spacing;
+  margin: $base-spacing 20%;
   padding: $base-spacing;
 }
 
