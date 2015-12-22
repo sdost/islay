@@ -584,7 +584,7 @@ html {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 5em;
   font-weight: 700;
-  line-height: 1.8;
+  line-height: 1.2;
   margin-bottom: 25px;
   text-shadow: -0.06em 0.06em 0.02em rgba(50, 71, 102, 0.5);
   text-transform: uppercase; }
@@ -596,7 +596,7 @@ html {
   font-size: 1.2em;
   font-style: italic;
   font-weight: 700;
-  line-height: 1.32;
+  line-height: 1.2;
   text-shadow: -0.04em 0.04em 0.02em rgba(50, 71, 102, 0.5); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000346}}
