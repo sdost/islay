@@ -61,9 +61,9 @@ $post-author-img-border: .3em solid $base-background-color;
 
 .post-body {
   box-sizing: content-box;
-  margin: $base-spacing auto;
+  margin: 0 auto;
   padding: $base-spacing;
-  width: em(975);
+  max-width: $max-width;
 }
 
 .post-comments {

@@ -618,9 +618,9 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000362}}
 .post-body {
   box-sizing: content-box;
-  margin: 1.5em auto;
+  margin: 0 auto;
   padding: 1.5em;
-  width: 60.9375em; }
+  max-width: 65.25em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000369}}
 .post-comments {
@@ -636,9 +636,9 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_page\.scss}line{font-family:\000037}}
 .page-body {
   box-sizing: content-box;
-  margin: 1.5em auto;
+  margin: 0 auto;
   padding: 1.5em;
-  width: 60.9375em; }
+  max-width: 65.25em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\000031}}
 .typography-article {
