@@ -20,20 +20,20 @@ $post-author-img-border: .3em solid $base-background-color;
   padding: $post-title-padding;
   text-align: center;
   z-index: 1;
-
-  h1 {
-    color: lighten($highlight-color, 10%);
-    font-family: $sans-serif;
-    font-size: $base-font-size * 5;
-    font-weight: 700;
-    line-height: $heading-line-height * 1.5;
-    margin-bottom: 25px;
-    text-shadow: $post-title-shadow;
-    text-transform: uppercase;
-  }
 }
 
-.post-byline h2 {
+.post-title-header {
+  color: lighten($highlight-color, 10%);
+  font-family: $sans-serif;
+  font-size: $base-font-size * 5;
+  font-weight: 700;
+  line-height: $heading-line-height * 1.5;
+  margin-bottom: 25px;
+  text-shadow: $post-title-shadow;
+  text-transform: uppercase;
+}
+
+.post-byline {
   color: lighten($highlight-color, 10%);
   font-family: $serif;
   font-size: $base-font-size * 1.2;
@@ -43,7 +43,7 @@ $post-author-img-border: .3em solid $base-background-color;
   text-shadow: $post-byline-shadow;
 }
 
-.post-author-img img {
+.post-author-img {
   background: $base-background-color;
   border: $post-author-img-border;
   border-radius: 50%;
@@ -56,18 +56,17 @@ $post-author-img-border: .3em solid $base-background-color;
 
 .post-content {
   display: block;
-  margin-left: $base-spacing;
-  margin-right: $base-spacing;
+  margin: 0 $base-spacing;
 }
 
 .post-body {
   box-sizing: content-box;
-  margin: $base-spacing 20%;
+  margin: $base-spacing auto;
   padding: $base-spacing;
+  width: em(975);
 }
 
 .post-comments {
-  margin-left: $base-spacing;
-  margin-right: $base-spacing;
+  margin: 0 $base-spacing;
   padding: $base-spacing;
 }

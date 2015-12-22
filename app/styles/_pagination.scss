@@ -1,9 +1,16 @@
-.loader {
-  width: 100%;
+.pagination {
+  @include display(flex);
+  @include fill-parent();
+  @include flex-direction(column);
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: $base-spacing em(24);
+}
 
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.newer-posts {
+  align-self: flex-start;
+}
+
+.older-posts {
+  align-self: flex-end;
 }

@@ -1,12 +1,19 @@
 .footer-copyright {
   color: lighten($action-color, 20%);
+  font-family: $sans-serif;
+  line-height: $base-line-height;
   margin: 0 auto;
   text-align: center;
   text-shadow: 0 -.06em 0 darken($base-color, 10%);
   width: 100%;
+}
 
-  span {
-    font-family: $sans-serif;
-    font-size: $base-font-size * .8;
-  }
+.footer-copyright-text {
+  font-size: $base-font-size * .8;
+  vertical-align: middle;
+}
+
+.footer-copyright-separator {
+  font-size: $base-font-size;
+  vertical-align: middle;
 }

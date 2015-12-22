@@ -4,26 +4,31 @@
 
   $card-image-height: em(250);
   $card-content-min-height: em(200);
-  $card-margin: 2.4em;
+  $card-margin: em(38);
 
   .cards {
     @include display(flex);
     @include flex-flow(column no-wrap);
   }
 
-  .cards-header {
-    img {
-      height: em(200);
-      width: em(200);
-    }
+  .pagination {
+    font-size: $base-font-size;
+    max-width: inherit;
+    width: 100%;
+    padding: 0 em(20) $base-spacing;
+  }
 
-    h1 {
-      font-size: $base-font-size * 1.2;
-    }
+  .cards-header-img {
+    height: em(200);
+    width: em(200);
+  }
 
-    h2 {
-      font-size: $base-font-size;
-    }
+  .cards-header-title {
+    font-size: $base-font-size * 1.2;
+  }
+
+  .cards-header-byline {
+    font-size: $base-font-size;
   }
 
   .card {
@@ -48,33 +53,33 @@
   .card-content {
     @include border-bottom-radius($base-border-radius);
     min-height: $card-content-min-height;
-
-    h1 {
-      font-size: $base-font-size * 3;
-    }
   }
 
-  .meta-author img {
+  .card-content-title {
+    font-size: $base-font-size * 3;
+  }
+
+  .meta-author-img {
     height: em(120);
     top: em(-60);
     width: em(120);
   }
 
-  .card-meta span {
+  .card-meta-item {
     font-size: $base-font-size;
   }
 
-  .post-title h1 {
+  .post-title {
     font-size: $base-font-size * 3;
     line-height: $heading-line-height * 1.1;
   }
 
-  .post-byline h2 {
+  .post-byline {
     font-size: $base-font-size * 1.2;
     line-height: $heading-line-height;
   }
 
-  .post-author-img img {
+  .post-author-img {
     bottom: em(-60);
     height: em(120);
     width: em(120);
@@ -85,13 +90,11 @@
   }
 
   .page-title {
-    h1 {
-      font-size: $base-font-size * 3.125;
-      line-height: $heading-line-height;
-    }
+    font-size: $base-font-size * 3.125;
+    line-height: $heading-line-height;
   }
 
-  article {
+  .typography-article {
     h1 {
       font-size: $base-font-size * 2;
     }
@@ -167,14 +170,14 @@
     left: em(10);
     position: absolute;
     top: em(5);
+  }
 
-    img {
-      height: em(90);
-      left: 0;
-      opacity: .9;
-      top: 0;
-      width: em(90);
-    }
+  .menu-logo-img {
+    height: em(90);
+    left: 0;
+    opacity: .9;
+    top: 0;
+    width: em(90);
   }
 
   .menu-nav {
@@ -183,13 +186,13 @@
     position: absolute;
     top: em(98);
     width: 100%;
+  }
 
-    nav ul {
-      @include display(flex);
-      @include flex-flow(column);
-      @include align-items(center);
-      @include size(100% auto);
-    }
+  .nav-items {
+    @include display(flex);
+    @include flex-flow(column);
+    @include align-items(center);
+    @include size(100% auto);
   }
 
   .nav-item {
@@ -201,11 +204,11 @@
     position: relative;
     width: 100%;
     z-index: 2;
+  }
 
-    h2 {
-      font-size: $base-font-size * 2.5;
-      text-align: center;
-    }
+  .nav-item-title {
+    font-size: $base-font-size * 2.5;
+    text-align: center;
   }
 
   .menu-search {
@@ -214,8 +217,7 @@
     @include flex-direction(column);
     @include justify-content(center);
     @include size(auto 100%);
-    margin-left: $base-spacing * 8;
-    margin-right: $base-spacing * 8;
+    margin: 0 $base-spacing * 8;
 
     input {
       border-radius: $base-border-radius * 1.5;
@@ -238,7 +240,11 @@
     position: relative;
   }
 
-  .footer-copyright span {
+  .footer-copyright-text {
+    font-size: $base-font-size * 0.8;
+  }
+
+  .footer-copyright-separator {
     font-size: $base-font-size;
   }
 }

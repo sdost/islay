@@ -6,6 +6,7 @@
 
 .page-body {
   box-sizing: content-box;
-  margin: $base-spacing 20%;
+  margin: $base-spacing auto;
   padding: $base-spacing;
+  width: em(975);
 }

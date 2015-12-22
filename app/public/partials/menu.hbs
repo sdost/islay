@@ -5,7 +5,7 @@
   <div class="menu-logo">
     {{#if @blog.logo}}
       <a href="{{@blog.url}}">
-        <img src="{{@blog.logo}}" height="50" width="50">
+        <img class="menu-logo-img" src="{{@blog.logo}}" height="50" width="50">
       </a>
     {{/if}}
   </div>
@@ -20,7 +20,7 @@
 
   {{#if @blog.navigation}}
     {{! For mobile nav }}
-    <a class="menu-button"><i class="fa fa-bars fa-5x"></i></a>
+    <a class="menu-button"><i class="menu-button-icon fa fa-bars fa-5x"></i></a>
     <script>
       $("a.menu-button").on("click", function() {
         $(".menu-nav").slideToggle("slow");

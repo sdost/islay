@@ -8,19 +8,19 @@
         {{#author}}
         <a href="{{url}}">
           {{#if image}}
-          <img src="{{image}}" height="50" width="50" />
+          <img class="meta-author-img" src="{{image}}" height="50" width="50" />
           {{else}}
-          <img src="http://lorempixel.com/g/50/50/people" height="50" width="50" />
+          <img class="meta-author-img" src="http://lorempixel.com/g/50/50/people" height="50" width="50" />
           {{/if}}
         </a>
         {{/author}}
       </div>
-      <span class="meta-date meta-box">{{date published_at timeago="true"}}</span>
-      <span class="meta-comment meta-box">
+      <span class="card-meta-item meta-date meta-box">{{date published_at timeago="true"}}</span>
+      <span class="card-meta-item meta-comment meta-box">
         <i class="fa fa-comment-o"></i>
         <a href="{{url}}#disqus_thread"></a>
       </span>
     </div>
-    <h1><a href="{{url}}">{{title}}</a></h1>
+    <h1 class="card-content-title"><a class="card-content-link" href="{{url}}">{{title}}</a></h1>
   </div>
 </div>
