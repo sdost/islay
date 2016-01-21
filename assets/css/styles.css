@@ -329,16 +329,25 @@ html {
   -o-justify-content: flex-end;
   justify-content: flex-end;
   -ms-flex-pack: end;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
   height: 100%;
   width: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000337}}
 .nav-item {
   display: inline;
   margin-left: 1.25em;
   margin-top: 1.875em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000343}}
 .nav-item-title {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2em;
@@ -347,20 +356,20 @@ html {
   text-shadow: 0 0em 0 #2d395d;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000352}}
 .nav-item-link {
   color: #6087a9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000355}}
   .nav-item-link:active, .nav-item-link:focus, .nav-item-link:hover {
     color: #a2b9cd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000362}}
 .menu-logo {
   display: table-cell;
   width: 8.33333%;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000367}}
 .menu-logo-img {
   height: 4.375em;
   left: 4.375em;
@@ -369,7 +378,7 @@ html {
   top: 0.3125em;
   width: 4.375em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000376}}
 .menu-search {
   display: table-cell;
   width: 41.66667%;
@@ -404,7 +413,7 @@ html {
   margin-left: 9em;
   margin-right: 3em;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000386}}
   .menu-search input {
     background: #cacacc;
     border: 0;
@@ -416,7 +425,7 @@ html {
     margin: 0;
     outline: 0;
     text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000399}}
   .menu-search .search-icon {
     color: #39536a;
     position: absolute;

@@ -30,6 +30,7 @@ $menu-item-color: lighten($action-color, 20%);
   @include display(flex);
   @include flex-direction(row);
   @include justify-content(flex-end);
+  @include align-items(center);
   @include size(auto 100%);
 }
 
