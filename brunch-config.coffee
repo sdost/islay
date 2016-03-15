@@ -6,7 +6,7 @@ module.exports = config:
     definition: false
     wrapper: false
   paths:
-    public: '.'
+    public: 'dist'
   files:
     stylesheets:
       defaultExtension: 'scss'
