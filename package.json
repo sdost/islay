@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "install": "bower install && brunch build",
+    "preinstall": "bower install",
+    "install": "brunch build",
     "start": "node_modules/.bin/brunch watch --server"
   },
   "devDependencies": {
