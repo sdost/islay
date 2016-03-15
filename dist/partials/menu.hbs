@@ -1,0 +1,30 @@
+<div class="menu">
+  <div class="menu-nav">
+    {{navigation}}
+  </div>
+  <div class="menu-logo">
+    {{#if @blog.logo}}
+      <a href="{{@blog.url}}">
+        <img class="menu-logo-img" src="{{@blog.logo}}" height="50" width="50">
+      </a>
+    {{/if}}
+  </div>
+  <div class="menu-search">
+    <!--
+    <form class="site-search">
+      <input type="search" id="search-field">
+    </form>
+    <span class="search-icon"><i class="fa fa-search fa-2x"></i></span>
+    -->
+  </div>
+
+  {{#if @blog.navigation}}
+    {{! For mobile nav }}
+    <a class="menu-button"><i class="menu-button-icon fa fa-bars fa-5x"></i></a>
+    <script>
+      $("a.menu-button").on("click", function() {
+        $(".menu-nav").slideToggle("slow");
+      });
+    </script>
+  {{/if}}
+</div>
