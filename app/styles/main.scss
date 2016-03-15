@@ -1,14 +1,15 @@
+@import 'fonts';
+
 // Bourbon
 @import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
 
 // Bitters
-@import '../../bower_components/bitters/app/assets/stylesheets/base';
+@import 'base/base';
 
 // Neat
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 // Override Settings
-@import 'fonts';
 @import 'settings';
 @import 'variables';
 
