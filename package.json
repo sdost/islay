@@ -8,7 +8,6 @@
   },
   "bugs": "https://github.com/sdost/islay/issues",
   "version": "0.1.5",
-  "private": true,
   "scripts": {
     "start": "node_modules/.bin/brunch watch --server"
   },
