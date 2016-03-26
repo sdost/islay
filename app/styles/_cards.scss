@@ -12,7 +12,6 @@ $card-margin: em(24) !default;
   @include flex-flow(row wrap);
   margin: 0 auto;
   max-width: $max-width;
-  padding: $base-spacing 0;
 }
 
 .cards-header {
@@ -103,11 +102,10 @@ $card-margin: em(24) !default;
   font-style: normal;
   font-weight: 400;
   line-height: $heading-line-height * .8;
-  text-transform: uppercase;
 }
 
 .card-content-link {
-  color: $action-color;
+  color: lighten($action-color, 20%);;
 }
 
 .meta-box {

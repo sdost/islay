@@ -1,5 +1,6 @@
 // Site
 .site-body {
+  background-color: $base-background-color;
   margin: 0;
 }
 
@@ -8,23 +9,16 @@
 }
 
 .site-nav {
-  @include fill-parent();
-  background-color: $base-color;
   box-sizing: border-box;
 }
 
 .site-main {
-  @include fill-parent();
-  background-color: $base-background-color;
   box-sizing: border-box;
   min-height: 100vh;
   position: relative;
 }
 
 .site-footer {
-  @include fill-parent();
-  background-color: $base-color;
-  border-top: .06em solid darken($base-background-color, 10%);
   box-sizing: border-box;
   clear: both;
   height: em(30);
