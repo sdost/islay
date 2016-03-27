@@ -19,14 +19,14 @@ $base-z-index: 0;
 $neutral-color: rgba(202, 202, 204, 1);
 $shadow-color: rgba(50, 71, 102, 1);
 $highlight-color: rgba(244, 230, 204, 1);
-$accent-color: rgba(60, 87, 169, 1);
+$accent-color: rgba(57, 83, 106, 1);
 $base-color: rgba(62, 78, 127, 1);
 $white: rgba(255, 255, 255, 1);
 
 // Font Colors
 $base-background-color: lighten($highlight-color, 10%);
 $base-font-color: shade($neutral-color, 60%);
-$action-color: $accent-color;
+$action-color: lighten($accent-color, 20%);
 
 // Border
 $base-border-color: $neutral-color;
