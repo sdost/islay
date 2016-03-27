@@ -1,4 +1,4 @@
-$menu-item-color: lighten($action-color, 20%);
+$menu-item-color: $action-color;
 
 .nav-items {
   padding: 20px 0;

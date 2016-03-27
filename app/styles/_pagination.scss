@@ -1,16 +1,37 @@
+$pagination-margin: em(24) !default;
+
 .pagination {
-  @include display(flex);
-  @include fill-parent();
-  @include flex-direction(column);
-  margin: 0 auto;
+  margin: 0 $pagination-margin;
   max-width: $max-width;
   padding: $base-spacing em(24);
+  position: relative;
+  width: 100%;
 }
 
 .newer-posts {
-  align-self: flex-start;
+  border: 1px solid $menu-item-color;
+  border-radius: 2px;
+  color: $menu-item-color;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0px;
+  line-height: 34px;
+  padding: 0 20px;
+  position: absolute;
+  top: 0px;
 }
 
 .older-posts {
-  align-self: flex-end;
+  border: 1px solid $menu-item-color;
+  border-radius: 2px;
+  color: $menu-item-color;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  position: absolute;
+  padding: 0 20px;
+  right: 0px;
+  top: 0px;
 }

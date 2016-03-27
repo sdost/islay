@@ -47,10 +47,10 @@ $card-margin: em(24) !default;
 }
 
 .card {
-  @include margin(null $card-margin $card-margin*2 $card-margin);
   @include transition(all $base-duration $base-timing);
   border-radius: $base-border-radius;
   box-shadow: 0 .03em .06em darken($base-background-color, 20%);
+  margin: $card-margin;
   width: em(300);
   position: relative;
 
@@ -105,7 +105,7 @@ $card-margin: em(24) !default;
 }
 
 .card-content-link {
-  color: lighten($action-color, 20%);;
+  color: $action-color;
 }
 
 .meta-box {
