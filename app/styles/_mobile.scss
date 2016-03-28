@@ -1,21 +1,16 @@
 @include media($mobile) {
-  $base-border-radius: em(10);
-  $base-font-size: 2rem;
+  $base-border-radius: em(6);
+  $base-font-size: 1rem;
 
   $card-image-height: em(250);
   $card-content-min-height: em(200);
-  $card-margin: em(38);
+  $card-margin: em(48);
+
+  $pagination-margin: em(48);
 
   .cards {
     @include display(flex);
     @include flex-flow(column no-wrap);
-  }
-
-  .pagination {
-    font-size: $base-font-size;
-    max-width: inherit;
-    width: 100%;
-    padding: 0 em(20) $base-spacing;
   }
 
   .cards-header-img {
@@ -34,13 +29,8 @@
   .card {
     @include flex(auto);
     border-radius: $base-border-radius;
-    margin: $card-margin * 1.1 $card-margin;
+    margin: 0 $card-margin $card-margin;
     width: 100%;
-
-    &.featured {
-      @include flex(auto);
-      @include order(1);
-    }
   }
 
   .card-img-container {
@@ -60,17 +50,29 @@
   }
 
   .meta-author-img {
-    height: em(120);
-    top: em(-60);
-    width: em(120);
+    height: em(100);
+    top: em(-50);
+    width: em(100);
   }
 
   .card-meta-item {
     font-size: $base-font-size;
   }
 
+  .pagination {
+    margin: 0 $pagination-margin;
+  }
+
+  .newer-posts {
+    border-radius: $base-border-radius;
+  }
+
+  .older-posts {
+    border-radius: $base-border-radius;
+  }
+
   .post-title {
-    font-size: $base-font-size * 3;
+    font-size: $base-font-size;
     line-height: $heading-line-height * 1.1;
   }
 
@@ -80,13 +82,14 @@
   }
 
   .post-author-img {
-    bottom: em(-60);
-    height: em(120);
-    width: em(120);
+    bottom: em(-50);
+    height: em(100);
+    width: em(100);
   }
 
   .post-body {
     border-radius: $base-border-radius;
+    padding: $base-spacing * 1.5 $base-spacing;
   }
 
   .page-title {
@@ -124,9 +127,17 @@
     }
 
     code {
-      border-radius: $base-border-radius * 1.5;
       font-family: $sans-serif-mono;
-      font-size: $base-font-size * 1.2;
+      font-size: $base-font-size;
+    }
+
+    pre {
+      border-radius: $base-border-radius;
+      margin: $small-spacing;
+
+      code {
+        padding: $small-spacing;
+      }
     }
 
     blockquote {
@@ -150,36 +161,6 @@
     }
   }
 
-  .menu {
-    height: em(100);
-  }
-
-  .menu-button {
-    @include span-columns(1);
-    display: block;
-    height: em(80);
-    position: absolute;
-    right: em(5);
-    top: em(10);
-    width: em(80);
-  }
-
-  .menu-logo {
-    @include span-columns(1);
-    display: block;
-    left: em(10);
-    position: absolute;
-    top: em(5);
-  }
-
-  .menu-logo-img {
-    height: em(90);
-    left: 0;
-    opacity: .9;
-    top: 0;
-    width: em(90);
-  }
-
   .menu-nav {
     @include clearfix;
     display: none;
@@ -189,62 +170,28 @@
   }
 
   .nav-items {
-    @include display(flex);
-    @include flex-flow(column);
-    @include align-items(center);
-    @include size(100% auto);
-  }
-
-  .nav-item {
-    background-color: $base-color;
-    border: 1px solid darken($base-color, 1%);
-    display: block;
-    margin: 0;
-    padding: $small-spacing 0;
-    position: relative;
-    width: 100%;
-    z-index: 2;
-  }
-
-  .nav-item-title {
-    font-size: $base-font-size * 2.5;
+    padding: 20px 0;
     text-align: center;
   }
 
-  .menu-search {
-    @include span-columns(1);
-    @include display(flex);
-    @include flex-direction(column);
-    @include justify-content(center);
-    @include size(auto 100%);
-    margin: 0 $base-spacing * 8;
+  .nav-current {
+    border-radius: $base-border-radius;
+  }
 
-    input {
-      border-radius: $base-border-radius * 1.5;
-      line-height: $base-line-height * 2;
-    }
-
-    .search-icon {
-      font-size: $base-font-size;
-      top: em(8);
-    }
+  .nav-item-title {
+    font-size: $base-font-size;
+    text-align: center;
   }
 
   .site-main {
     min-height: 100vh;
   }
 
-  .site-footer {
-    clear: both;
-    height: em(100);
-    position: relative;
-  }
-
   .footer-copyright-text {
-    font-size: $base-font-size * 0.8;
+    font-size: $base-font-size;
   }
 
   .footer-copyright-separator {
-    font-size: $base-font-size;
+    font-size: $base-font-size * 1.2;
   }
 }

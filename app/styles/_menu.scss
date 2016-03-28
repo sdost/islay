@@ -9,9 +9,7 @@ $menu-item-color: $action-color;
   border: 1px solid transparent;
   color: $menu-item-color;
   display: inline-block;
-  font-size: 14px;
   font-weight: 400;
-  line-height: 34px;
   padding: 0 20px;
 
   &:active,
@@ -23,7 +21,7 @@ $menu-item-color: $action-color;
 
 .nav-current {
   border-color: $menu-item-color;
-  border-radius: 2px;
+  border-radius: $base-border-radius;
   color: $menu-item-color;
 }
 
