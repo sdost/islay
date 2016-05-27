@@ -1,17 +1,16 @@
+bourbon = require("bourbon")
+neat = require("bourbon-neat")
+
 module.exports = config:
   conventions:
     assets:  /^app\/public\//
-    ignored: /^(bower_components\/bootstrap-less(-themes)?|app\/styles\/overrides|(.*?\/)?[_]\w*)/
-  modules:
-    definition: false
-    wrapper: false
+    ignored: /^(app\/styles\/overrides|(.*?\/)?[_]\w*)/
   paths:
     public: 'dist'
   files:
     stylesheets:
-      defaultExtension: 'scss'
       joinTo:
-        'assets/css/styles.css': /^(app|vendor|bower_components)/
+        'assets/css/styles.css': /^(app|vendor)/
       order:
         before: [
           'vendor/styles/font-awesome.min.css'
@@ -23,7 +22,7 @@ module.exports = config:
     javascripts:
       joinTo:
         'assets/js/scripts.js': /^app/
-        'assets/js/vendor.js': /^(bower_components|vendor)/
+        'assets/js/vendor.js': /^vendor/
 
   plugins:
     uglify:
@@ -31,7 +30,9 @@ module.exports = config:
     autoReload:
       enabled: true
     assetsmanager:
-        copyTo:
-          'assets': ['app/images', 'app/fonts']
-
-  minify: true
+      copyTo:
+        'assets': ['app/images', 'app/fonts']
+    sass:
+      options:
+        mode: 'native'
+        includePaths: [bourbon.includePaths..., neat.includePaths...]
