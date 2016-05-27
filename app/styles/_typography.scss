@@ -1,7 +1,7 @@
 .typography-article {
 
   @include clearfix;
-  font-family: $sans-serif;
+  font-family: $typography;
   line-height: 1.6;
   overflow: hidden;
   text-align: left;
@@ -86,7 +86,6 @@
     &:before {
       color: $accent-color;
       content: open-quote;
-      font-family: $serif;
       font-size: $base-font-size * 4;
       line-height: $base-line-height * .2;
       margin-right: $small-spacing * .1;
@@ -96,7 +95,6 @@
     &:after {
       color: $accent-color;
       content: close-quote;
-      font-family: $serif;
       font-size: $base-font-size * 4;
       line-height: $base-line-height * .2;
       margin-left: $small-spacing * .1;
@@ -119,7 +117,6 @@
     h6,
     p {
       display: inline;
-      font-family: $serif;
       font-style: italic;
     }
   }
@@ -157,7 +154,6 @@
 
   ul,
   ol {
-    font-family: $serif;
     font-size: $base-font-size;
     font-weight: 400;
     line-height: $base-line-height;
