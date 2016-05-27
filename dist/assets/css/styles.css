@@ -833,7 +833,7 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000399}}
 .card-content-title {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 2.25em;
+  font-size: 2em;
   font-style: normal;
   font-weight: 400;
   line-height: 0.96; }
@@ -901,7 +901,7 @@ html {
   font-family: "Droid Serif", serif;
   font-size: 1.2em;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.2;
   text-shadow: -0.04em 0.04em 0.02em rgba(50, 71, 102, 0.5); }
 
@@ -961,10 +961,10 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000310}}
   .typography-article a {
     background-color: transparent;
-    color: #39536a; }
+    color: #6087a9; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000314}}
     .typography-article a:active, .typography-article a:hover {
-      color: #6087a9;
+      color: #7093b2;
       outline: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000321}}
   .typography-article h1,
@@ -1025,7 +1025,7 @@ html {
     quotes: "“" "”" "‘" "’"; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000386}}
     .typography-article blockquote:before {
-      color: #39536a;
+      color: #6087a9;
       content: open-quote;
       font-size: 4em;
       line-height: 0.3;
@@ -1033,7 +1033,7 @@ html {
       vertical-align: -.35em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000395}}
     .typography-article blockquote:after {
-      color: #39536a;
+      color: #6087a9;
       content: close-quote;
       font-size: 4em;
       line-height: 0.3;
@@ -1065,7 +1065,7 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003132}}
   .typography-article code {
     font-family: "Source Code Pro", monospace;
-    font-size: 0.75em; }
+    font-size: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003137}}
   .typography-article pre {
     border-radius: 4.5px;
