@@ -13,7 +13,7 @@
 
     &:active,
     &:hover {
-      color: lighten($action-color, 5%);
+      color: lighten($action-color, 10%);
       outline: 0;
     }
   }

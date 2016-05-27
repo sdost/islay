@@ -58,7 +58,7 @@ $card-margin: em(24) !default;
   &:hover,
   &:active {
     .card-content-link {
-      color: lighten($action-color, 20%);
+      color: lighten($action-color, 10%);
     }
 
     .card-content {

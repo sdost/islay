@@ -795,7 +795,7 @@ html {
   position: relative; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000360}}
   .card:focus .card-content-link, .card:hover .card-content-link, .card:active .card-content-link {
-    color: #a2b9cd; }
+    color: #81a0bb; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000364}}
   .card:focus .card-content, .card:hover .card-content, .card:active .card-content {
     background-color: #fffffe; }
@@ -964,7 +964,7 @@ html {
     color: #6087a9; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000314}}
     .typography-article a:active, .typography-article a:hover {
-      color: #7093b2;
+      color: #81a0bb;
       outline: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000321}}
   .typography-article h1,
