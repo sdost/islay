@@ -9,11 +9,11 @@
 
   a {
     background-color: transparent;
-    color: $accent-color;
+    color: $action-color;
 
     &:active,
     &:hover {
-      color: lighten($accent-color, 20%);
+      color: lighten($action-color, 5%);
       outline: 0;
     }
   }
@@ -84,7 +84,7 @@
     quotes: '\201C''\201D''\2018''\2019';
 
     &:before {
-      color: $accent-color;
+      color: $action-color;
       content: open-quote;
       font-size: $base-font-size * 4;
       line-height: $base-line-height * .2;
@@ -93,7 +93,7 @@
     }
 
     &:after {
-      color: $accent-color;
+      color: $action-color;
       content: close-quote;
       font-size: $base-font-size * 4;
       line-height: $base-line-height * .2;
@@ -131,7 +131,7 @@
 
   code {
     font-family: $sans-serif-mono;
-    font-size: $base-font-size * .75;
+    font-size: $base-font-size;
   }
 
   pre {
