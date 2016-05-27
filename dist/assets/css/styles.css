@@ -428,10 +428,11 @@ th {
 }
 
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic);
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\000031}}
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #477dca;
@@ -451,26 +452,26 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\0000321}}
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
     background-color: #3964a2;
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\0000327}}
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_buttons\.scss}line{font-family:\0000331}}
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
       background-color: #477dca; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\000031}}
 fieldset {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\000038}}
 input,
 label,
 select {
@@ -478,18 +479,18 @@ select {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000316}}
 label {
   font-weight: 600;
   margin-bottom: 0.375em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000320}}
   label.required::after {
     content: "*"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000324}}
   label abbr {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000329}}
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
 select[multiple=multiple] {
   background-color: #fff;
@@ -503,84 +504,84 @@ select[multiple=multiple] {
   padding: 0.5em;
   transition: border-color 150ms ease;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000343}}
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
   select[multiple=multiple]:hover {
     border-color: #b1b1b1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000347}}
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
   select[multiple=multiple]:focus {
     border-color: #477dca;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
     outline: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000353}}
   input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled,
   select[multiple=multiple]:disabled {
     background-color: #f2f2f2;
     cursor: not-allowed; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000357}}
     input[type="color"]:disabled:hover, input[type="date"]:disabled:hover, input[type="datetime"]:disabled:hover, input[type="datetime-local"]:disabled:hover, input[type="email"]:disabled:hover, input[type="month"]:disabled:hover, input[type="number"]:disabled:hover, input[type="password"]:disabled:hover, input[type="search"]:disabled:hover, input[type="tel"]:disabled:hover, input[type="text"]:disabled:hover, input[type="time"]:disabled:hover, input[type="url"]:disabled:hover, input[type="week"]:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover,
     select[multiple=multiple]:disabled:hover {
       border: 1px solid #ddd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000363}}
 textarea {
   resize: vertical; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000367}}
 input[type="search"] {
   appearance: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000371}}
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
   margin-right: 0.375em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000376}}
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000381}}
 input[type="file"] {
   margin-bottom: 0.75em;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_forms\.scss}line{font-family:\0000386}}
 select {
   margin-bottom: 1.5em;
   max-width: 100%;
   width: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\000031}}
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\000037}}
   .typography-article ul {
     list-style-type: disc;
     margin-bottom: 0.75em;
     padding-left: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000313}}
   .typography-article ol {
     list-style-type: decimal;
     margin-bottom: 0.75em;
     padding-left: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000320}}
 dl {
   margin-bottom: 0.75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000323}}
   dl dt {
     font-weight: bold;
     margin-top: 0.75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_lists\.scss}line{font-family:\0000328}}
   dl dd {
     margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\000031}}
 table {
   border-collapse: collapse;
   font-feature-settings: "kern", "liga", "tnum";
@@ -588,25 +589,25 @@ table {
   table-layout: fixed;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\000039}}
 th {
   border-bottom: 1px solid #a6a6a6;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\0000316}}
 td {
   border-bottom: 1px solid #ddd;
   padding: 0.75em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_tables\.scss}line{font-family:\0000321}}
 tr,
 td,
 th {
   vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\000031}}
 body {
   color: #333;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -614,7 +615,7 @@ body {
   font-size: 1em;
   line-height: 1.5; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\000039}}
 h1,
 h2,
 h3,
@@ -626,20 +627,20 @@ h6 {
   line-height: 1.2;
   margin: 0 0 0.75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000321}}
 p {
   margin: 0 0 0.75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000325}}
 a {
   color: #477dca;
   text-decoration: none;
   transition: color 150ms ease; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000330}}
   a:active, a:focus, a:hover {
     color: #355e98; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000337}}
 hr {
   border-bottom: 1px solid #ddd;
   border-left: 0;
@@ -647,92 +648,92 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/base\/_typography\.scss}line{font-family:\0000345}}
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/bower_components\/neat\/app\/assets\/stylesheets\/grid\/_box-sizing\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/bower_components\/neat\/app\/assets\/stylesheets\/grid\/_box-sizing\.scss}line{font-family:\000034}}
 html {
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/bower_components\/neat\/app\/assets\/stylesheets\/grid\/_box-sizing\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/bower_components\/neat\/app\/assets\/stylesheets\/grid\/_box-sizing\.scss}line{font-family:\000039}}
 *, *::after, *::before {
   box-sizing: inherit; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_site\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_site\.scss}line{font-family:\000032}}
 .site-body {
   background-color: #fdfbf6;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_site\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_site\.scss}line{font-family:\000037}}
 .site-wrapper {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000320}}
   .site-wrapper::after {
     clear: both;
     content: "";
     display: table; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_site\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_site\.scss}line{font-family:\0000311}}
 .site-nav {
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_site\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_site\.scss}line{font-family:\0000315}}
 .site-main {
   box-sizing: border-box;
   min-height: 100vh;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_site\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_site\.scss}line{font-family:\0000321}}
 .site-footer {
   box-sizing: border-box;
   clear: both;
   height: 1.875em;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_menu\.scss}line{font-family:\000033}}
 .nav-items {
   padding: 20px 0;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_menu\.scss}line{font-family:\000038}}
 .nav-item {
   border: 1px solid transparent;
   color: #6087a9;
   display: inline-block;
   font-weight: 400;
   padding: 0 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000315}}
   .nav-item:active, .nav-item:focus, .nav-item:hover {
     color: #a2b9cd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000322}}
 .nav-current {
   border-color: #6087a9;
   border-radius: 3px;
   color: #6087a9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000328}}
 .nav-item-title {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2em;
   font-weight: 400;
   margin: 5px auto;
   text-align: right;
   text-shadow: 0 0em 0 #2d395d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000337}}
 .nav-item-link {
   color: #6087a9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_menu\.scss}line{font-family:\0000340}}
   .nav-item-link:active, .nav-item-link:focus, .nav-item-link:hover {
     color: #a2b9cd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\000039}}
 .cards {
   display: -webkit-box;
   display: -moz-box;
@@ -748,14 +749,14 @@ html {
   margin: 0 auto;
   max-width: 65.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000317}}
 .cards-header {
   border-bottom: 1px solid #3e4e7f;
   margin: 0 1.5em;
   padding: 1.5em 0;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000324}}
 .cards-header-img {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
@@ -767,22 +768,22 @@ html {
   margin: 0 auto;
   width: 7.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000334}}
 .cards-header-title {
   color: #515152;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2em;
   font-weight: 400;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000342}}
 .cards-header-byline {
   font-size: 0.83em;
   font-weight: 400;
   margin-top: 0.75em;
   padding: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000349}}
 .card {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
@@ -792,24 +793,24 @@ html {
   margin: 1.5em;
   width: 18.75em;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000360}}
   .card:focus .card-content-link, .card:hover .card-content-link, .card:active .card-content-link {
     color: #a2b9cd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000364}}
   .card:focus .card-content, .card:hover .card-content, .card:active .card-content {
     background-color: #fffffe; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000368}}
   .card:focus .meta-author-img, .card:hover .meta-author-img, .card:active .meta-author-img {
     background: #fffffe;
     border-color: #fffffe; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000375}}
 .card-img-container {
   overflow: hidden;
   position: relative;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000381}}
 .card-img {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -818,7 +819,7 @@ html {
   display: block;
   height: 10.9375em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000389}}
 .card-content {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -829,32 +830,32 @@ html {
   position: relative;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\0000399}}
 .card-content-title {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 2.25em;
   font-style: normal;
   font-weight: 400;
   line-height: 0.96; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003107}}
 .card-content-link {
   color: #6087a9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003111}}
 .meta-box {
   margin-right: 1.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003115}}
 .card-meta {
   margin-bottom: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003119}}
 .card-meta-item {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_cards\.scss}line{font-family:\00003124}}
 .meta-author-img {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
@@ -868,14 +869,14 @@ html {
   top: -1.5625em;
   width: 3.125em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000310}}
 .post-header {
   background-position: center;
   background-size: cover;
   display: block;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000317}}
 .post-title {
   margin: 0 auto;
   max-width: 1100px;
@@ -883,10 +884,10 @@ html {
   text-align: center;
   z-index: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000325}}
 .post-title-header {
   color: #fdfbf6;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 5em;
   font-weight: 700;
   line-height: 1.2;
@@ -894,17 +895,17 @@ html {
   text-shadow: -0.06em 0.06em 0.02em rgba(50, 71, 102, 0.5);
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000336}}
 .post-byline {
   color: #fdfbf6;
-  font-family: "Source Serif Pro", serif;
+  font-family: "Droid Serif", serif;
   font-size: 1.2em;
   font-style: italic;
   font-weight: 700;
   line-height: 1.2;
   text-shadow: -0.04em 0.04em 0.02em rgba(50, 71, 102, 0.5); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000346}}
 .post-author-img {
   background: #fdfbf6;
   border: 0.3em solid #fdfbf6;
@@ -915,57 +916,57 @@ html {
   right: 0.9375em;
   width: 5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000357}}
 .post-content {
   display: block;
   margin: 0 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000362}}
 .post-body {
   box-sizing: content-box;
   margin: 0 auto;
   padding: 1.5em;
   max-width: 65.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_post\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_post\.scss}line{font-family:\0000369}}
 .post-comments {
   margin: 0 1.5em;
   padding: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_page\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_page\.scss}line{font-family:\000031}}
 .page-content {
   display: block;
   margin-left: 1.5em;
   margin-right: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_page\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_page\.scss}line{font-family:\000037}}
 .page-body {
   box-sizing: content-box;
   margin: 0 auto;
   padding: 1.5em;
   max-width: 65.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\000031}}
 .typography-article {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.6;
   overflow: hidden;
   text-align: left;
   word-wrap: break-word; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000320}}
   .typography-article::after {
     clear: both;
     content: "";
     display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000310}}
   .typography-article a {
     background-color: transparent;
     color: #39536a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000314}}
     .typography-article a:active, .typography-article a:hover {
       color: #6087a9;
       outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000321}}
   .typography-article h1,
   .typography-article h2,
   .typography-article h3,
@@ -975,38 +976,38 @@ html {
     font-weight: 700;
     line-height: 1.2;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000332}}
   .typography-article h1 {
     font-size: 2.25em;
     margin-bottom: .67em;
     margin-top: .67em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000338}}
   .typography-article h2 {
     font-size: 1.75em;
     margin-bottom: .83em;
     margin-top: .83em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000344}}
   .typography-article h3 {
     font-size: 1.5em;
     line-height: 1.425;
     margin-bottom: 1em;
     margin-top: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000351}}
   .typography-article h4 {
     font-size: 1.25em;
     margin-bottom: 1.33em;
     margin-top: 1.33em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000357}}
   .typography-article h5 {
     font-size: 1em;
     margin-bottom: 1.67em;
     margin-top: 1.67em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000363}}
   .typography-article h6 {
     font-size: 1em;
     margin-bottom: 2.33em;
     margin-top: 2.33em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000369}}
   .typography-article p,
   .typography-article blockquote,
   .typography-article ul,
@@ -1017,36 +1018,34 @@ html {
     font-size: 1em;
     margin-bottom: 1em;
     margin-top: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000381}}
   .typography-article blockquote {
     margin: 0.75em;
     padding: 0.75em;
     quotes: "“" "”" "‘" "’"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000386}}
     .typography-article blockquote:before {
       color: #39536a;
       content: open-quote;
-      font-family: "Source Serif Pro", serif;
       font-size: 4em;
       line-height: 0.3;
       margin-right: 0.075em;
       vertical-align: -.35em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\0000395}}
     .typography-article blockquote:after {
       color: #39536a;
       content: close-quote;
-      font-family: "Source Serif Pro", serif;
       font-size: 4em;
       line-height: 0.3;
       margin-left: 0.075em;
       vertical-align: -.35em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003104}}
     .typography-article blockquote:first-child {
       margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003108}}
     .typography-article blockquote:last-child {
       margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003112}}
     .typography-article blockquote h1,
     .typography-article blockquote h2,
     .typography-article blockquote h3,
@@ -1055,53 +1054,51 @@ html {
     .typography-article blockquote h6,
     .typography-article blockquote p {
       display: inline;
-      font-family: "Source Serif Pro", serif;
       font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003124}}
   .typography-article hr {
     border-bottom: 1px solid #4d6c87;
     box-sizing: content-box;
     height: 0;
     margin: 1.5em auto;
     width: 75%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003132}}
   .typography-article code {
     font-family: "Source Code Pro", monospace;
     font-size: 0.75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003137}}
   .typography-article pre {
     border-radius: 4.5px;
     margin: 0.75em 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003141}}
     .typography-article pre code {
       padding: 0.75em 1.5em;
       tab-size: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003155}}
   .typography-article ul,
   .typography-article ol {
-    font-family: "Source Serif Pro", serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5;
     padding-left: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003162}}
     .typography-article ul ol,
     .typography-article ol ol {
       list-style-type: lower-roman; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003165}}
       .typography-article ul ol ol,
       .typography-article ol ol ol {
         list-style-type: lower-alpha; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003170}}
     .typography-article ul ul,
     .typography-article ol ul {
       margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_typography\.scss}line{font-family:\00003175}}
   .typography-article img {
     box-sizing: border-box;
     max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_pagination\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_pagination\.scss}line{font-family:\000033}}
 .pagination {
   margin: 0 1.5em;
   max-width: 65.25em;
@@ -1109,7 +1106,7 @@ html {
   position: relative;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_pagination\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_pagination\.scss}line{font-family:\0000311}}
 .newer-posts {
   border: 1px solid #6087a9;
   border-radius: 2px;
@@ -1122,7 +1119,7 @@ html {
   position: absolute;
   top: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_pagination\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_pagination\.scss}line{font-family:\0000324}}
 .older-posts {
   border: 1px solid #6087a9;
   border-radius: 2px;
@@ -1135,27 +1132,27 @@ html {
   right: 0px;
   top: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_footer\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_footer\.scss}line{font-family:\000031}}
 .footer-copyright {
   color: #6087a9;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   line-height: 1.5;
   margin: 0 auto;
   text-align: center;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_footer\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_footer\.scss}line{font-family:\0000310}}
 .footer-copyright-text {
   font-size: 0.8em;
   vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_footer\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_footer\.scss}line{font-family:\0000315}}
 .footer-copyright-separator {
   font-size: 1em;
   vertical-align: middle; }
 
 @media screen and (max-width: 65.1875em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000311}}
   .cards {
     display: -webkit-box;
     display: -moz-box;
@@ -1168,20 +1165,20 @@ html {
     -moz-flex-flow: column no-wrap;
     flex-flow: column no-wrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000316}}
   .cards-header-img {
     height: 12.5em;
     width: 12.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000321}}
   .cards-header-title {
     font-size: 1.2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000325}}
   .cards-header-byline {
     font-size: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000329}}
   .card {
     -webkit-box-flex: auto;
     -moz-box-flex: auto;
@@ -1194,153 +1191,153 @@ html {
     margin: 0 3em 3em;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000337}}
   .card-img-container .card-img {
     border-top-left-radius: 0.375em;
     border-top-right-radius: 0.375em;
     height: 15.625em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000343}}
   .card-content {
     border-bottom-left-radius: 0.375em;
     border-bottom-right-radius: 0.375em;
     min-height: 12.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000348}}
   .card-content-title {
     font-size: 3rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000352}}
   .meta-author-img {
     height: 6.25em;
     top: -3.125em;
     width: 6.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000358}}
   .card-meta-item {
     font-size: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000362}}
   .pagination {
     margin: 0 3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000366}}
   .newer-posts {
     border-radius: 0.375em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000370}}
   .older-posts {
     border-radius: 0.375em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000374}}
   .post-title {
     font-size: 1rem;
     line-height: 1.32; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000379}}
   .post-byline {
     font-size: 1.2rem;
     line-height: 1.2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000384}}
   .post-author-img {
     bottom: -3.125em;
     height: 6.25em;
     width: 6.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000390}}
   .post-body {
     border-radius: 0.375em;
     padding: 2.25em 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\0000395}}
   .page-title {
     font-size: 3.125rem;
     line-height: 1.2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003101}}
   .typography-article h1 {
     font-size: 2rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003105}}
   .typography-article h2 {
     font-size: 1.5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003109}}
   .typography-article h3 {
     font-size: 1.17rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003113}}
   .typography-article h4 {
     font-size: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003117}}
   .typography-article h5 {
     font-size: 0.83rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003121}}
   .typography-article h6 {
     font-size: 0.67rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003125}}
   .typography-article p {
     font-size: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003129}}
   .typography-article code {
     font-family: "Source Code Pro", monospace;
     font-size: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003134}}
   .typography-article pre {
     border-radius: 0.375em;
     margin: 0.75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003138}}
     .typography-article pre code {
       padding: 0.75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003143}}
   .typography-article blockquote {
     border-radius: 0.5625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003146}}
     .typography-article blockquote:before {
       font-size: 4rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003150}}
     .typography-article blockquote:after {
       font-size: 4rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003155}}
   .typography-article ul {
     font-size: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003159}}
   .typography-article ol {
     font-size: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003164}}
   .menu-nav {
     display: none;
     position: absolute;
     top: 6.125em;
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000320}}
     .menu-nav::after {
       clear: both;
       content: "";
       display: table; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003172}}
   .nav-items {
     padding: 20px 0;
     text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003177}}
   .nav-current {
     border-radius: 0.375em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003181}}
   .nav-item-title {
     font-size: 1rem;
     text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003186}}
   .site-main {
     min-height: 100vh; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003190}}
   .footer-copyright-text {
     font-size: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/Github\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samueldost\/Projects\/islay\/app\/styles\/_mobile\.scss}line{font-family:\00003194}}
   .footer-copyright-separator {
     font-size: 1.2rem; } }
 
