@@ -4,7 +4,7 @@ $card-header-background: $card-background;
 $card-hover-background: lighten($base-background-color, 2%);
 $card-image-height: em(175) !default;
 $card-content-min-height: 180px !default;
-$card-margin: em(24) !default;
+$card-margin: em(20) !default;
 
 .cards {
   @include display(flex);

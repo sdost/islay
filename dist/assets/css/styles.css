@@ -323,7 +323,7 @@ html {
   -moz-flex-flow: row wrap;
   flex-flow: row wrap;
   margin: 0 auto;
-  max-width: 65.25em; }
+  max-width: 64em; }
 
 /* line 17, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .cards-header {
@@ -366,7 +366,7 @@ html {
   transition: all 150ms ease;
   border-radius: 3px;
   box-shadow: 0 0.03em 0.06em #ebd1a2;
-  margin: 1.5em;
+  margin: 1.25em;
   width: 18.75em;
   position: relative; }
   /* line 60, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
@@ -502,7 +502,7 @@ html {
   box-sizing: content-box;
   margin: 0 auto;
   padding: 1.5em;
-  max-width: 65.25em; }
+  max-width: 64em; }
 
 /* line 69, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-comments {
@@ -520,7 +520,7 @@ html {
   box-sizing: content-box;
   margin: 0 auto;
   padding: 1.5em;
-  max-width: 65.25em; }
+  max-width: 64em; }
 
 /* line 1, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
 .typography-article {
@@ -676,8 +676,8 @@ html {
 
 /* line 3, /Users/samueldost/Projects/islay/app/styles/_pagination.scss */
 .pagination {
-  margin: 0 1.5em;
-  max-width: 65.25em;
+  margin: 0 1.25em;
+  max-width: 64em;
   padding: 1.5em 1.5em;
   position: relative;
   width: 100%; }
@@ -705,7 +705,7 @@ html {
   line-height: 34px;
   position: absolute;
   padding: 0 20px;
-  right: 0px;
+  right: 3px;
   top: 0px; }
 
 /* line 1, /Users/samueldost/Projects/islay/app/styles/_footer.scss */
@@ -727,7 +727,7 @@ html {
   font-size: 1em;
   vertical-align: middle; }
 
-@media screen and (max-width: 65.1875em) {
+@media screen and (max-device-width: 48em) {
   /* line 11, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .cards {
     display: -webkit-box;

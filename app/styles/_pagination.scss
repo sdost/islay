@@ -1,4 +1,4 @@
-$pagination-margin: em(24) !default;
+$pagination-margin: em(20) !default;
 
 .pagination {
   margin: 0 $pagination-margin;
@@ -30,6 +30,6 @@ $pagination-margin: em(24) !default;
   line-height: 34px;
   position: absolute;
   padding: 0 20px;
-  right: 0px;
+  right: 3px;
   top: 0px;
 }
