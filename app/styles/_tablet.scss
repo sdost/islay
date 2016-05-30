@@ -1,0 +1,8 @@
+@include media($tablet) {
+  .cards {
+    @include display(flex);
+    @include flex-flow(row wrap);
+    margin: 0 auto;
+    max-width: $tablet-size;
+  }
+}

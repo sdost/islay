@@ -2,9 +2,9 @@ $card-border: $base-border;
 $card-background: darken($base-background-color, 2%);
 $card-header-background: $card-background;
 $card-hover-background: lighten($base-background-color, 2%);
-$card-image-height: em(175) !default;
+$card-image-height: 175px !default;
 $card-content-min-height: 180px !default;
-$card-margin: em(20) !default;
+$card-margin: 20px !default;
 
 .cards {
   @include display(flex);
@@ -26,9 +26,9 @@ $card-margin: em(20) !default;
   background: $card-background;
   border: 4px solid $card-background;
   border-radius: 50%;
-  height: em(120);
+  height: 120px;
   margin: 0 auto;
-  width: em(120);
+  width: 120px;
 }
 
 .cards-header-title {
@@ -51,7 +51,7 @@ $card-margin: em(20) !default;
   border-radius: $base-border-radius;
   box-shadow: 0 .03em .06em darken($base-background-color, 20%);
   margin: $card-margin;
-  width: em(300);
+  width: 300px;
   position: relative;
 
   &:focus,
@@ -109,7 +109,7 @@ $card-margin: em(20) !default;
 }
 
 .meta-box {
-  margin-right: em(20);
+  margin-right: 20px;
 }
 
 .card-meta {
@@ -126,9 +126,9 @@ $card-margin: em(20) !default;
   background: $card-header-background;
   border: .2em solid $card-header-background;
   border-radius: 50%;
-  height: em(50);
+  height: 50px;
   position: absolute;
-  right: em(15);
-  top: em(-25);
-  width: em(50);
+  right: 15px;
+  top: -25px;
+  width: 50px;
 }

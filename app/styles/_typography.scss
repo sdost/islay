@@ -136,10 +136,10 @@
 
   pre {
     border-radius: $base-border-radius * 1.5;
-    margin: $small-spacing $base-spacing * 2;
+    margin: $small-spacing $small-spacing;
 
     code {
-      padding: $small-spacing $base-spacing;
+      padding: $small-spacing $small-spacing;
       tab-size: 2;
     }
   }

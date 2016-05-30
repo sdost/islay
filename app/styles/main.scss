@@ -3,15 +3,15 @@
 // Bourbon
 @import 'bourbon';
 
-// Bitters
-@import 'base/base';
-
 // Neat
 @import 'neat';
 
 // Override Settings
 @import 'settings';
 @import 'variables';
+
+// Bitters
+@import 'base/base';
 
 // Layout
 @import 'site';
@@ -25,4 +25,5 @@
 
 // Media Queies
 @import 'mobile';
+@import 'tablet';
 @import 'desktop';

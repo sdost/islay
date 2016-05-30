@@ -47,11 +47,11 @@ $post-author-img-border: .3em solid $base-background-color;
   background: $base-background-color;
   border: $post-author-img-border;
   border-radius: 50%;
-  bottom: em(-40);
-  height: em(80);
+  bottom: -40px;
+  height: 80px;
   position: absolute;
-  right: em(15);
-  width: em(80);
+  right: 15px;
+  width: 80px;
 }
 
 .post-content {
@@ -62,11 +62,13 @@ $post-author-img-border: .3em solid $base-background-color;
 .post-body {
   box-sizing: content-box;
   margin: 0 auto;
-  padding: $base-spacing;
   max-width: $max-width;
+  padding: $base-spacing;
 }
 
 .post-comments {
-  margin: 0 $base-spacing;
+  clear: both;
+  margin: 0 auto;
+  max-width: $max-width;
   padding: $base-spacing;
 }

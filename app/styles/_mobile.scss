@@ -1,29 +1,11 @@
 @include media($mobile) {
-  $base-border-radius: em(6);
-  $base-font-size: 1rem;
-
-  $card-image-height: em(250);
-  $card-content-min-height: em(200);
-  $card-margin: em(48);
-
-  $pagination-margin: em(48);
+  .site-body {
+    font-size: 11px;
+  }
 
   .cards {
     @include display(flex);
     @include flex-flow(column no-wrap);
-  }
-
-  .cards-header-img {
-    height: em(200);
-    width: em(200);
-  }
-
-  .cards-header-title {
-    font-size: $base-font-size * 1.2;
-  }
-
-  .cards-header-byline {
-    font-size: $base-font-size;
   }
 
   .card {
@@ -33,165 +15,66 @@
     width: 100%;
   }
 
-  .card-img-container {
-    .card-img {
-      @include border-top-radius($base-border-radius);
-      height: $card-image-height;
-    }
-  }
-
   .card-content {
-    @include border-bottom-radius($base-border-radius);
-    min-height: $card-content-min-height;
-  }
-
-  .card-content-title {
-    font-size: $base-font-size * 3;
+    padding-top: $base-spacing * 1.5;
   }
 
   .meta-author-img {
-    height: em(100);
-    top: em(-50);
-    width: em(100);
+    height: 60px;
+    top: -30px;
+    width: 60px;
+    right: 5px;
   }
 
-  .card-meta-item {
-    font-size: $base-font-size;
-  }
-
-  .pagination {
-    margin: 0 $pagination-margin;
-  }
-
-  .newer-posts {
-    border-radius: $base-border-radius;
-  }
-
-  .older-posts {
-    border-radius: $base-border-radius;
-  }
-
-  .post-title {
-    font-size: $base-font-size;
+  .post-title-header {
+    font-size: $base-font-size * 2;
     line-height: $heading-line-height * 1.1;
   }
 
   .post-byline {
-    font-size: $base-font-size * 1.2;
+    font-size: $base-font-size;
     line-height: $heading-line-height;
   }
 
   .post-author-img {
-    bottom: em(-50);
-    height: em(100);
-    width: em(100);
-  }
-
-  .post-body {
-    border-radius: $base-border-radius;
-    padding: $base-spacing * 1.5 $base-spacing;
-  }
-
-  .page-title {
-    font-size: $base-font-size * 3.125;
-    line-height: $heading-line-height;
-  }
-
-  .typography-article {
-    h1 {
-      font-size: $base-font-size * 2;
-    }
-
-    h2 {
-      font-size: $base-font-size * 1.5;
-    }
-
-    h3 {
-      font-size: $base-font-size * 1.17;
-    }
-
-    h4 {
-      font-size: $base-font-size;
-    }
-
-    h5 {
-      font-size: $base-font-size * .83;
-    }
-
-    h6 {
-      font-size: $base-font-size * .67;
-    }
-
-    p {
-      font-size: $base-font-size;
-    }
-
-    code {
-      font-family: $sans-serif-mono;
-      font-size: $base-font-size;
-    }
-
-    pre {
-      border-radius: $base-border-radius;
-      margin: $small-spacing;
-
-      code {
-        padding: $small-spacing;
-      }
-    }
-
-    blockquote {
-      border-radius: $base-border-radius * 1.5;
-
-      &:before {
-        font-size: $base-font-size * 4;
-      }
-
-      &:after {
-        font-size: $base-font-size * 4;
-      }
-    }
-
-    ul {
-      font-size: $base-font-size;
-    }
-
-    ol {
-      font-size: $base-font-size;
-    }
+    bottom: -30px;
+    height: 60px;
+    width: 60px;
+    right: 5px;
+    border-width: 2px;
   }
 
   .menu-nav {
     @include clearfix;
     display: none;
     position: absolute;
-    top: em(98);
+    top: 98px;
     width: 100%;
   }
 
   .nav-items {
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
   }
 
-  .nav-current {
-    border-radius: $base-border-radius;
+  .nav-item {
+    padding: 0 10px;
   }
 
   .nav-item-title {
-    font-size: $base-font-size;
-    text-align: center;
+    font-size: $base-font-size * 0.825;
   }
 
   .site-main {
     min-height: 100vh;
   }
 
-  .footer-copyright-text {
-    font-size: $base-font-size;
+  .pagination {
+    padding-bottom: $base-spacing * 2;
   }
 
-  .footer-copyright-separator {
-    font-size: $base-font-size * 1.2;
+  .newer-posts,
+  .older-posts {
+    padding: 0 10px;
   }
 }

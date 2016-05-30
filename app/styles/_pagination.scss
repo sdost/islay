@@ -1,9 +1,9 @@
-$pagination-margin: em(20) !default;
+$pagination-margin: 20px !default;
 
 .pagination {
   margin: 0 $pagination-margin;
   max-width: $max-width;
-  padding: $base-spacing em(24);
+  padding: $base-spacing 24px;
   position: relative;
   width: 100%;
 }
@@ -30,6 +30,6 @@ $pagination-margin: em(20) !default;
   line-height: 34px;
   position: absolute;
   padding: 0 20px;
-  right: 3px;
+  right: 0px;
   top: 0px;
 }
