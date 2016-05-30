@@ -605,7 +605,7 @@ picture {
       font-size: 4rem;
       line-height: 0.3;
       margin-right: 0.075em;
-      vertical-align: -.35em; }
+      vertical-align: -.40em; }
     /* line 95, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article blockquote:after {
       color: #6087a9;
@@ -613,7 +613,7 @@ picture {
       font-size: 4rem;
       line-height: 0.3;
       margin-left: 0.075em;
-      vertical-align: -.35em; }
+      vertical-align: -.40em; }
     /* line 104, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article blockquote:first-child {
       margin-top: 0; }
