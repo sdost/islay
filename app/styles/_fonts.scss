@@ -3,3 +3,10 @@ $sans-serif: 'Roboto Condensed', sans-serif;
 $sans-serif-mono: 'Roboto Mono', ;
 $serif: 'Droid Serif', serif;
 $typography: 'Raleway', sans-serif;
+
+.wf-loading {
+  visibility: hidden;
+}
+.wf-active, .wf-inactive {
+  visibility: visible;
+}
