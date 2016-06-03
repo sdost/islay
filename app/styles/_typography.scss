@@ -89,7 +89,7 @@
       font-size: $base-font-size * 4;
       line-height: $base-line-height * .2;
       margin-right: $small-spacing * .1;
-      vertical-align: -.40em;
+      vertical-align: -.45em;
     }
 
     &:after {
@@ -98,7 +98,7 @@
       font-size: $base-font-size * 4;
       line-height: $base-line-height * .2;
       margin-left: $small-spacing * .1;
-      vertical-align: -.40em;
+      vertical-align: -.45em;
     }
 
     &:first-child {
@@ -136,12 +136,7 @@
 
   pre {
     border-radius: $base-border-radius * 1.5;
-    margin: $small-spacing $small-spacing;
-
-    code {
-      padding: $small-spacing $small-spacing;
-      tab-size: 2;
-    }
+    margin: $small-spacing 0;
   }
 
   ul {
