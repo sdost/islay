@@ -3,7 +3,7 @@
     <div class="post-title">
       <h1 class="post-title-header">{{title}}</h1>
       {{#author}}
-      <h2 class="post-byline">by {{name}}<br />on {{date published_at format="MMMM Do, YYYY [at] h:mma"}}</h2>
+      <h2 class="post-byline">by {{name}}<br />on {{date ../published_at format="MMMM Do, YYYY [at] h:mma"}}</h2>
       <a href="{{url}}">
         {{#if image}}
         <img class="post-author-img" src="{{image}}" height="80" width="80" />
