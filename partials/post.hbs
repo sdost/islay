@@ -1,0 +1,46 @@
+<div id="post-{{id}}" class="{{post_class}}">
+  <div class="post-header" style="background-image:url({{image}});">
+    <div class="post-title">
+      <h1 class="post-title-header">{{title}}</h1>
+      {{#author}}
+      <h2 class="post-byline">by {{name}}<br />on {{date ../published_at format="MMMM Do, YYYY [at] h:mma"}}</h2>
+      <a href="{{url}}">
+        {{#if image}}
+        <img class="post-author-img" src="{{image}}" height="80" width="80" />
+        {{else}}
+        <img class="post-author-img" src="http://lorempixel.com/g/80/80/people" height="80" width="80" />
+        {{/if}}
+      </a>
+      <p class="post-half-circle" />
+      {{/author}}
+    </div>
+  </div>
+  <div class="post-content">
+    <article class="post-body typography-article">{{content}}</article>
+    <div id="disqus_thread" class="post-comments"></div>
+    <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = '{{url}}';
+          this.page.identifier = '{{id}}';
+          this.page.title = '{{title}}';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = '//deprogramming.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+<script type="text/javascript">
+Prism.plugins.NormalizeWhitespace.setDefaults({
+  'remove-trailing': true,
+  'remove-indent': true,
+  'left-trim': true,
+  'right-trim': true,
+  'break-lines': 100,
+  'tabs-to-spaces': 2
+});
+</script>

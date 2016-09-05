@@ -1,0 +1,16 @@
+{{!< default}}
+<div class="site-content">
+  <div class="cards-header">
+    <h1 class="cards-header-title">Articles tagged "{{tag.name}}"</h1>
+    {{#if tag.description}}
+      <h2 class="cards-header-byline">{{tag.description}}</h2>
+    {{/if}}
+  </div>
+  <div class="cards">
+  {{#foreach posts}}
+    {{> card}}
+  {{/foreach}}
+  </div>
+
+  {{pagination}}
+</div>

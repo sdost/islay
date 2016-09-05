@@ -1,0 +1,26 @@
+<div id="post-{{id}}" class="card{{#if featured}} featured{{/if}}">
+  <div class="card-img-container">
+    <a class="card-img" href="{{url}}" style="background-image:url({{image}});"></a>
+  </div>
+  <div class="card-content">
+    <div class="card-meta">
+      <div class="meta-author">
+        {{#author}}
+        <a href="{{url}}">
+          {{#if image}}
+          <img class="meta-author-img" src="{{image}}" height="50" width="50" />
+          {{else}}
+          <img class="meta-author-img" src="http://lorempixel.com/g/50/50/people" height="50" width="50" />
+          {{/if}}
+        </a>
+        {{/author}}
+      </div>
+      <span class="card-meta-item meta-date meta-box">{{date published_at timeago="true"}}</span>
+      <span class="card-meta-item meta-comment meta-box">
+        <i class="fa fa-comment-o"></i>
+        <a href="{{url}}#disqus_thread" data-disqus-identifier="{{id}}"></a>
+      </span>
+    </div>
+    <h1 class="card-content-title"><a class="card-content-link" href="{{url}}">{{title}}</a></h1>
+  </div>
+</div>

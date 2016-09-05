@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-US" class="js flexbox webgl no-touch geolocation hashchange history websockets rgba hsla multiplebgs backgroundsize borderimage textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage applicationcache svg svgclippaths mediaqueries no-regions no-supports">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+
+  <title>{{meta_title}}</title>
+
+  <meta name="description" content="{{meta_description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{! Announce the rss feed }}
+  <link rel="alternate" type="application/rss+xml" title="{{@blog.title}} » Feed" href="{{@blog.url}}/rss">
+
+  {{! Stylesheets }}
+  <link rel="stylesheet" href="{{asset 'css/styles.css'}}" type="text/css" />
+
+  {{! Scripts }}
+  <script type="text/javascript" src="{{asset 'js/vendor.js'}}"></script>
+  <script type="text/javascript" src="{{asset 'js/scripts.js'}}"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+  <script>
+  WebFont.load({
+    google: {
+      families: [
+        'Raleway:400,400italic,700:latin',
+        'Roboto+Condensed:400,700:latin',
+        'Roboto+Mono:400,700:latin',
+        'Droid+Serif:400italic:latin'
+      ]
+    }
+  });
+  </script>
+
+  <!-- Ghost outputs important style and meta data with this tag -->
+  {{ghost_head}}
+</head>
+
+
+<body class="{{body_class}} site-body">
+  <div class="site-wrapper">
+    {{! The main section uses eight columns in the grid framework }}
+    <main class="site-main">
+      {{#if @blog.navigation}}
+        {{navigation}}
+      {{/if}}
+
+      {{{body}}}
+    </main>
+
+    <!-- The Ghost footer helper will insert some shared javascript libraries and files required by plugins -->
+    <footer class="site-footer">
+      {{> footer}}
+    </footer>
+  </div>
+  {{ghost_foot}}
+  <script id="dsq-count-scr" src="//deprogramming.disqus.com/count.js" async></script>
+</body>
+</html>
