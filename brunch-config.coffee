@@ -6,7 +6,7 @@ module.exports = config:
     assets:  /^app\/public\//
     ignored: /^(app\/styles\/overrides|(.*?\/)?[_]\w*)/
   paths:
-    public: 'dist'
+    public: '.'
   files:
     stylesheets:
       joinTo:
