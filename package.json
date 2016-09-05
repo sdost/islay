@@ -7,7 +7,7 @@
     "url": "git://github.com/sdost/islay.git"
   },
   "bugs": "https://github.com/sdost/islay/issues",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "files": [ "assets", "partials", "*.hbs" ],
   "scripts": {
     "start": "node_modules/.bin/brunch watch --server",
