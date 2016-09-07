@@ -7,7 +7,7 @@
 * [Brunch](http://brunch.io/)
 * [Bourbon](https://github.com/thoughtbot/bourbon)
 * [Neat](https://github.com/thoughtbot/neat)
-* [Bitter](https://github.com/thoughtbot/bitters)
+* [Bitters](https://github.com/thoughtbot/bitters)
 
 ## Changeset
 
