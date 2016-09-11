@@ -11,6 +11,9 @@
 
 ## Changeset
 
+__0.3.10__
+* Updated README.md and package.json.
+
 __0.3.9__
 * Fixed deployment structure and package.json to conform to the Ghost theme spec.
 * NPM package now filters out source files to minimize package size.
