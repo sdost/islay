@@ -6,11 +6,17 @@
     "type": "git",
     "url": "git://github.com/sdost/islay.git"
   },
-  "bugs": "https://github.com/sdost/islay/issues",
+  "bugs": {
+    "url": "https://github.com/sdost/islay/issues"
+  },
   "version": "0.3.9",
-  "files": [ "assets", "partials", "*.hbs" ],
+  "files": [
+    "assets",
+    "partials",
+    "*.hbs"
+  ],
   "scripts": {
-    "start": "node_modules/.bin/brunch watch --server",
+    "start": "brunch watch --server",
     "prepublish": "brunch build"
   },
   "devDependencies": {
@@ -24,5 +30,12 @@
     "normalize-scss": "^5.0.3",
     "sass-brunch": "^2.0",
     "uglify-js-brunch": "^2.0"
-  }
+  },
+  "readme": "# islay (aye-luh)\n\n![Home Image](http://i.imgur.com/WeYDzDn.png)\n![Post Image](http://i.imgur.com/nqissLg.png)\n\n## Description\nA card-based theme for Ghost.\n\n## Dependencies\n* [Bourbon](https://github.com/thoughtbot/bourbon)\n* [Neat](https://github.com/thoughtbot/neat)\n* [Bitter](https://github.com/thoughtbot/bitters)\n",
+  "readmeFilename": "README.md",
+  "gitHead": "802eff900ba7d108dda8e18c9dd626708996252c",
+  "homepage": "https://github.com/sdost/islay#readme",
+  "_id": "islay@0.3.9",
+  "_shasum": "516a78c6ad9c7f497ae18da1aedd81cfe0b45497",
+  "_from": "islay@latest"
 }
