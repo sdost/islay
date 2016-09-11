@@ -448,11 +448,11 @@ picture {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/mixins/_clearfix.scss */
   .site-wrapper::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 /* line 12, /Users/samueldost/Projects/islay/app/styles/_site.scss */
 .site-nav {
@@ -744,11 +744,11 @@ picture {
   overflow: hidden;
   text-align: left;
   word-wrap: break-word; }
-  /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/mixins/_clearfix.scss */
   .typography-article::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   /* line 10, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article a {
     background-color: transparent;
@@ -1005,11 +1005,11 @@ picture {
     position: absolute;
     top: 98px;
     width: 100%; }
-    /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/mixins/_clearfix.scss */
     .menu-nav::after {
       clear: both;
       content: "";
-      display: table; }
+      display: block; }
   /* line 65, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .nav-items {
     padding: 10px 0;
