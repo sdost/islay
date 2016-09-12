@@ -23,3 +23,4 @@ __0.3.9__
 * Adding AMP support
 * Using ghost API to implement post search
 * Some cleanup & better documentation
+* Support subscribers
