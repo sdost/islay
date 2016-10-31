@@ -11,6 +11,9 @@
 
 ## Changeset
 
+0.3.12
+* Bug fix for Disqus.
+
 __0.3.10__
 * Updated README.md and package.json.
 
