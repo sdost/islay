@@ -198,23 +198,18 @@ div.prism-show-language > div.prism-show-language-label {
 
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto+Condensed:400,700|Droid+Serif:400italic|Raleway:400,400italic,700);
-/* line 7, /Users/samueldost/Projects/islay/app/styles/_fonts.scss */
 .wf-loading {
   visibility: hidden; }
 
-/* line 10, /Users/samueldost/Projects/islay/app/styles/_fonts.scss */
 .wf-active, .wf-inactive {
   visibility: visible; }
 
-/* line 4, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/grid/_box-sizing.scss */
 html {
   box-sizing: border-box; }
 
-/* line 9, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/base/_buttons.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #6087a9;
@@ -234,26 +229,21 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
-  /* line 21, /Users/samueldost/Projects/islay/app/styles/base/_buttons.scss */
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
     background-color: #4d6c87;
     color: #fff; }
-  /* line 27, /Users/samueldost/Projects/islay/app/styles/base/_buttons.scss */
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
-    /* line 31, /Users/samueldost/Projects/islay/app/styles/base/_buttons.scss */
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
       background-color: #6087a9; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 fieldset {
   background-color: #f2f2f2;
   border: 1px solid #cacacc;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
-/* line 8, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 input,
 label,
 select {
@@ -261,18 +251,14 @@ select {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem; }
 
-/* line 16, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 label {
   font-weight: 600;
   margin-bottom: 0.375em; }
-  /* line 20, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
   label.required::after {
     content: "*"; }
-  /* line 24, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
   label abbr {
     display: none; }
 
-/* line 29, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
 select[multiple=multiple] {
   background-color: #fdfbf6;
@@ -286,85 +272,68 @@ select[multiple=multiple] {
   padding: 0.5em;
   transition: border-color 150ms ease;
   width: 100%; }
-  /* line 42, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
   select[multiple=multiple]:hover {
     border-color: #a2a2a3; }
-  /* line 46, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
   select[multiple=multiple]:focus {
     border-color: #6087a9;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(84, 122, 156, 0.7);
     outline: none; }
-  /* line 52, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
   input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled,
   select[multiple=multiple]:disabled {
     background-color: #f0eeea;
     cursor: not-allowed; }
-    /* line 56, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
     input[type="color"]:disabled:hover, input[type="date"]:disabled:hover, input[type="datetime"]:disabled:hover, input[type="datetime-local"]:disabled:hover, input[type="email"]:disabled:hover, input[type="month"]:disabled:hover, input[type="number"]:disabled:hover, input[type="password"]:disabled:hover, input[type="search"]:disabled:hover, input[type="tel"]:disabled:hover, input[type="text"]:disabled:hover, input[type="time"]:disabled:hover, input[type="url"]:disabled:hover, input[type="week"]:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover,
     select[multiple=multiple]:disabled:hover {
       border: 1px solid #cacacc; }
 
-/* line 62, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 textarea {
   resize: vertical; }
 
-/* line 66, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 input[type="search"] {
   appearance: none; }
 
-/* line 70, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
   margin-right: 0.375em; }
-  /* line 75, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     display: inline-block; }
 
-/* line 80, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 input[type="file"] {
   margin-bottom: 0.75em;
   width: 100%; }
 
-/* line 85, /Users/samueldost/Projects/islay/app/styles/base/_forms.scss */
 select {
   margin-bottom: 1.5em;
   max-width: 100%;
   width: auto; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/base/_lists.scss */
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-  /* line 7, /Users/samueldost/Projects/islay/app/styles/base/_lists.scss */
   .typography-article ul {
     list-style-type: disc;
     margin-bottom: 0.75em;
     padding-left: 1.5em; }
-  /* line 13, /Users/samueldost/Projects/islay/app/styles/base/_lists.scss */
   
   .typography-article ol {
     list-style-type: decimal;
     margin-bottom: 0.75em;
     padding-left: 1.5em; }
 
-/* line 20, /Users/samueldost/Projects/islay/app/styles/base/_lists.scss */
 dl {
   margin-bottom: 0.75em; }
-  /* line 23, /Users/samueldost/Projects/islay/app/styles/base/_lists.scss */
   dl dt {
     font-weight: bold;
     margin-top: 0.75em; }
-  /* line 28, /Users/samueldost/Projects/islay/app/styles/base/_lists.scss */
   dl dd {
     margin: 0; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/base/_tables.scss */
 table {
   border-collapse: collapse;
   font-feature-settings: "kern", "liga", "tnum";
@@ -372,25 +341,21 @@ table {
   table-layout: fixed;
   width: 100%; }
 
-/* line 9, /Users/samueldost/Projects/islay/app/styles/base/_tables.scss */
 th {
   border-bottom: 1px solid #989899;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
-/* line 16, /Users/samueldost/Projects/islay/app/styles/base/_tables.scss */
 td {
   border-bottom: 1px solid #cacacc;
   padding: 0.75em 0; }
 
-/* line 21, /Users/samueldost/Projects/islay/app/styles/base/_tables.scss */
 tr,
 td,
 th {
   vertical-align: middle; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/base/_typography.scss */
 body {
   color: #515152;
   font-family: "Roboto Condensed", sans-serif;
@@ -398,7 +363,6 @@ body {
   font-size: 1rem;
   line-height: 1.5; }
 
-/* line 9, /Users/samueldost/Projects/islay/app/styles/base/_typography.scss */
 h1,
 h2,
 h3,
@@ -410,20 +374,16 @@ h6 {
   line-height: 1.2;
   margin: 0 0 0.75em; }
 
-/* line 21, /Users/samueldost/Projects/islay/app/styles/base/_typography.scss */
 p {
   margin: 0 0 0.75em; }
 
-/* line 25, /Users/samueldost/Projects/islay/app/styles/base/_typography.scss */
 a {
   color: #6087a9;
   text-decoration: none;
   transition: color 150ms ease; }
-  /* line 30, /Users/samueldost/Projects/islay/app/styles/base/_typography.scss */
   a:active, a:focus, a:hover {
     color: #48657f; }
 
-/* line 37, /Users/samueldost/Projects/islay/app/styles/base/_typography.scss */
 hr {
   border-bottom: 1px solid #cacacc;
   border-left: 0;
@@ -431,68 +391,56 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
-/* line 45, /Users/samueldost/Projects/islay/app/styles/base/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 2, /Users/samueldost/Projects/islay/app/styles/_site.scss */
 .site-body {
   background-color: #fdfbf6;
   font-size: 16px;
   margin: 0; }
 
-/* line 8, /Users/samueldost/Projects/islay/app/styles/_site.scss */
 .site-wrapper {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/mixins/_clearfix.scss */
   .site-wrapper::after {
     clear: both;
     content: "";
     display: block; }
 
-/* line 12, /Users/samueldost/Projects/islay/app/styles/_site.scss */
 .site-nav {
   box-sizing: border-box; }
 
-/* line 16, /Users/samueldost/Projects/islay/app/styles/_site.scss */
 .site-main {
   box-sizing: border-box;
   min-height: 100vh;
   position: relative; }
 
-/* line 22, /Users/samueldost/Projects/islay/app/styles/_site.scss */
 .site-footer {
   box-sizing: border-box;
   clear: both;
   height: 30px;
   position: relative; }
 
-/* line 3, /Users/samueldost/Projects/islay/app/styles/_menu.scss */
 .nav-items {
   padding: 20px 0;
   text-align: center; }
 
-/* line 8, /Users/samueldost/Projects/islay/app/styles/_menu.scss */
 .nav-item {
   border: 1px solid transparent;
   color: #6087a9;
   display: inline-block;
   padding: 0 20px; }
-  /* line 14, /Users/samueldost/Projects/islay/app/styles/_menu.scss */
   .nav-item:active, .nav-item:focus, .nav-item:hover {
     color: #a2b9cd; }
 
-/* line 21, /Users/samueldost/Projects/islay/app/styles/_menu.scss */
 .nav-current {
   border-color: #6087a9;
   border-radius: 3px;
   color: #6087a9; }
 
-/* line 27, /Users/samueldost/Projects/islay/app/styles/_menu.scss */
 .nav-item-title {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2rem;
@@ -501,14 +449,11 @@ picture {
   text-align: right;
   text-shadow: 0 0em 0 #2d395d; }
 
-/* line 36, /Users/samueldost/Projects/islay/app/styles/_menu.scss */
 .nav-item-link {
   color: #6087a9; }
-  /* line 39, /Users/samueldost/Projects/islay/app/styles/_menu.scss */
   .nav-item-link:active, .nav-item-link:focus, .nav-item-link:hover {
     color: #a2b9cd; }
 
-/* line 9, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .cards {
   display: -webkit-box;
   display: -moz-box;
@@ -524,14 +469,12 @@ picture {
   margin: 0 auto;
   max-width: 1020px; }
 
-/* line 17, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .cards-header {
   border-bottom: 1px solid #3e4e7f;
   margin: 0 1.5em;
   padding: 1.5em 0;
   text-align: center; }
 
-/* line 24, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .cards-header-img {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
@@ -543,7 +486,6 @@ picture {
   margin: 0 auto;
   width: 120px; }
 
-/* line 34, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .cards-header-title {
   color: #515152;
   font-family: "Roboto Condensed", sans-serif;
@@ -551,14 +493,12 @@ picture {
   font-weight: 400;
   margin: 0; }
 
-/* line 42, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .cards-header-byline {
   font-size: 0.83rem;
   font-weight: 400;
   margin-top: 0.75em;
   padding: 1.5em; }
 
-/* line 49, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
@@ -568,24 +508,19 @@ picture {
   margin: 20px;
   width: 300px;
   position: relative; }
-  /* line 60, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
   .card:focus .card-content-link, .card:hover .card-content-link, .card:active .card-content-link {
     color: #81a0bb; }
-  /* line 64, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
   .card:focus .card-content, .card:hover .card-content, .card:active .card-content {
     background-color: #fffffe; }
-  /* line 68, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
   .card:focus .meta-author-img, .card:hover .meta-author-img, .card:active .meta-author-img {
     background: #fffffe;
     border-color: #fffffe; }
 
-/* line 75, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card-img-container {
   overflow: hidden;
   position: relative;
   width: 100%; }
 
-/* line 81, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card-img {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -594,7 +529,6 @@ picture {
   display: block;
   height: 175px; }
 
-/* line 89, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card-content {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -605,7 +539,6 @@ picture {
   position: relative;
   text-align: center; }
 
-/* line 99, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card-content-title {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2rem;
@@ -613,24 +546,19 @@ picture {
   font-weight: 400;
   line-height: 0.96; }
 
-/* line 107, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card-content-link {
   color: #6087a9; }
 
-/* line 111, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .meta-box {
   margin-right: 20px; }
 
-/* line 115, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card-meta {
   margin-bottom: 1.5em; }
 
-/* line 119, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .card-meta-item {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8rem; }
 
-/* line 124, /Users/samueldost/Projects/islay/app/styles/_cards.scss */
 .meta-author-img {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
@@ -644,7 +572,6 @@ picture {
   top: -25px;
   width: 50px; }
 
-/* line 10, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-header {
   background-position: center;
   background-size: cover;
@@ -653,7 +580,6 @@ picture {
   display: block;
   position: relative; }
 
-/* line 19, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-title {
   margin: 0 auto;
   max-width: 1100px;
@@ -661,7 +587,6 @@ picture {
   text-align: center;
   z-index: 1; }
 
-/* line 27, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-title-header {
   color: #fdfbf6;
   font-family: "Roboto Condensed", sans-serif;
@@ -672,7 +597,6 @@ picture {
   text-shadow: -0.06em 0.06em 0.02em rgba(50, 71, 102, 0.5);
   text-transform: uppercase; }
 
-/* line 38, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-byline {
   color: #fdfbf6;
   font-family: "Droid Serif", serif;
@@ -682,7 +606,6 @@ picture {
   line-height: 1.2;
   text-shadow: -0.04em 0.04em 0.02em rgba(50, 71, 102, 0.5); }
 
-/* line 48, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-author-img {
   background: #fdfbf6;
   border: 4px solid #fdfbf6;
@@ -693,7 +616,6 @@ picture {
   right: 15px;
   width: 80px; }
 
-/* line 59, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-half-circle {
   border: 1px solid #324766;
   border-bottom: 0;
@@ -705,59 +627,49 @@ picture {
   right: 15px;
   width: 80px; }
 
-/* line 71, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-content {
   display: block;
   margin: 0 1.5em; }
 
-/* line 76, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-body {
   box-sizing: content-box;
   margin: 0 auto;
   max-width: 1020px;
   padding: 1.5em; }
 
-/* line 83, /Users/samueldost/Projects/islay/app/styles/_post.scss */
 .post-comments {
   clear: both;
   margin: 0 auto;
   max-width: 1020px;
   padding: 1.5em; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/_page.scss */
 .page-content {
   display: block;
   margin-left: 1.5em;
   margin-right: 1.5em; }
 
-/* line 7, /Users/samueldost/Projects/islay/app/styles/_page.scss */
 .page-body {
   box-sizing: content-box;
   margin: 0 auto;
   padding: 1.5em;
   max-width: 1020px; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
 .typography-article {
   font-family: "Raleway", sans-serif;
   line-height: 1.6;
   overflow: hidden;
   text-align: left;
   word-wrap: break-word; }
-  /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/mixins/_clearfix.scss */
   .typography-article::after {
     clear: both;
     content: "";
     display: block; }
-  /* line 10, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article a {
     background-color: transparent;
     color: #6087a9; }
-    /* line 14, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article a:active, .typography-article a:hover {
       color: #81a0bb;
       outline: 0; }
-  /* line 21, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article h1,
   .typography-article h2,
   .typography-article h3,
@@ -767,38 +679,31 @@ picture {
     font-weight: 700;
     line-height: 1.2;
     position: relative; }
-  /* line 32, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article h1 {
     font-size: 2.25rem;
     margin-bottom: .67em;
     margin-top: .67em; }
-  /* line 38, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article h2 {
     font-size: 1.75rem;
     margin-bottom: .83em;
     margin-top: .83em; }
-  /* line 44, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article h3 {
     font-size: 1.5rem;
     line-height: 1.425;
     margin-bottom: 1em;
     margin-top: 1em; }
-  /* line 51, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article h4 {
     font-size: 1.25rem;
     margin-bottom: 1.33em;
     margin-top: 1.33em; }
-  /* line 57, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article h5 {
     font-size: 1rem;
     margin-bottom: 1.67em;
     margin-top: 1.67em; }
-  /* line 63, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article h6 {
     font-size: 1rem;
     margin-bottom: 2.33em;
     margin-top: 2.33em; }
-  /* line 69, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article p,
   .typography-article blockquote,
   .typography-article ul,
@@ -809,12 +714,10 @@ picture {
     font-size: 1rem;
     margin-bottom: 1em;
     margin-top: 1em; }
-  /* line 81, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article blockquote {
     margin: 0.75em;
     padding: 0.75em;
     quotes: "“" "”" "‘" "’"; }
-    /* line 86, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article blockquote:before {
       color: #6087a9;
       content: open-quote;
@@ -822,7 +725,6 @@ picture {
       line-height: 0.3;
       margin-right: 0.075em;
       vertical-align: -.45em; }
-    /* line 95, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article blockquote:after {
       color: #6087a9;
       content: close-quote;
@@ -830,13 +732,10 @@ picture {
       line-height: 0.3;
       margin-left: 0.075em;
       vertical-align: -.45em; }
-    /* line 104, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article blockquote:first-child {
       margin-top: 0; }
-    /* line 108, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article blockquote:last-child {
       margin-bottom: 0; }
-    /* line 112, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article blockquote h1,
     .typography-article blockquote h2,
     .typography-article blockquote h3,
@@ -846,46 +745,37 @@ picture {
     .typography-article blockquote p {
       display: inline;
       font-style: italic; }
-  /* line 124, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article hr {
     border-bottom: 1px solid #4d6c87;
     box-sizing: content-box;
     height: 0;
     margin: 1.5em auto;
     width: 75%; }
-  /* line 132, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article code {
     font-family: "Roboto Mono";
     font-size: 1rem; }
-  /* line 137, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article pre {
     border-radius: 4.5px;
     margin: 0.75em 0; }
-  /* line 150, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article ul,
   .typography-article ol {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     padding-left: 2em; }
-    /* line 157, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article ul ol,
     .typography-article ol ol {
       list-style-type: lower-roman; }
-      /* line 160, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
       .typography-article ul ol ol,
       .typography-article ol ol ol {
         list-style-type: lower-alpha; }
-    /* line 165, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
     .typography-article ul ul,
     .typography-article ol ul {
       margin-bottom: 0; }
-  /* line 170, /Users/samueldost/Projects/islay/app/styles/_typography.scss */
   .typography-article img {
     box-sizing: border-box;
     max-width: 100%; }
 
-/* line 3, /Users/samueldost/Projects/islay/app/styles/_pagination.scss */
 .pagination {
   margin: 0 20px;
   max-width: 1020px;
@@ -893,7 +783,6 @@ picture {
   position: relative;
   width: 100%; }
 
-/* line 11, /Users/samueldost/Projects/islay/app/styles/_pagination.scss */
 .newer-posts {
   border: 1px solid #6087a9;
   border-radius: 2px;
@@ -906,7 +795,6 @@ picture {
   position: absolute;
   top: 0px; }
 
-/* line 24, /Users/samueldost/Projects/islay/app/styles/_pagination.scss */
 .older-posts {
   border: 1px solid #6087a9;
   border-radius: 2px;
@@ -919,7 +807,6 @@ picture {
   right: 0px;
   top: 0px; }
 
-/* line 1, /Users/samueldost/Projects/islay/app/styles/_footer.scss */
 .footer-copyright {
   color: #6087a9;
   font-family: "Roboto Condensed", sans-serif;
@@ -928,21 +815,17 @@ picture {
   text-align: center;
   width: 100%; }
 
-/* line 10, /Users/samueldost/Projects/islay/app/styles/_footer.scss */
 .footer-copyright-text {
   font-size: 0.8rem;
   vertical-align: middle; }
 
-/* line 15, /Users/samueldost/Projects/islay/app/styles/_footer.scss */
 .footer-copyright-separator {
   font-size: 1rem;
   vertical-align: middle; }
 
 @media screen and (max-width: 425px) {
-  /* line 2, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .site-body {
     font-size: 11px; }
-  /* line 6, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .cards {
     display: -webkit-box;
     display: -moz-box;
@@ -954,7 +837,6 @@ picture {
     -webkit-flex-flow: column no-wrap;
     -moz-flex-flow: column no-wrap;
     flex-flow: column no-wrap; }
-  /* line 11, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .card {
     -webkit-box-flex: auto;
     -moz-box-flex: auto;
@@ -966,31 +848,25 @@ picture {
     border-radius: 3px;
     margin: 0 20px 20px;
     width: 100%; }
-  /* line 18, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .card-content {
     padding-top: 2.25em; }
-  /* line 22, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .meta-author-img {
     height: 60px;
     top: -30px;
     width: 60px;
     right: 5px; }
-  /* line 29, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .post-title-header {
     font-size: 2rem;
     line-height: 1.32; }
-  /* line 34, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .post-byline {
     font-size: 1rem;
     line-height: 1.2; }
-  /* line 39, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .post-author-img {
     bottom: -30px;
     height: 60px;
     width: 60px;
     right: 5px;
     border-width: 3px; }
-  /* line 47, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .post-half-circle {
     border-bottom: 0;
     border-top-left-radius: 31px;
@@ -999,40 +875,31 @@ picture {
     height: 31px;
     right: 5px;
     width: 60px; }
-  /* line 57, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .menu-nav {
     display: none;
     position: absolute;
     top: 98px;
     width: 100%; }
-    /* line 20, /Users/samueldost/Projects/islay/node_modules/bourbon-neat/app/assets/stylesheets/mixins/_clearfix.scss */
     .menu-nav::after {
       clear: both;
       content: "";
       display: block; }
-  /* line 65, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .nav-items {
     padding: 10px 0;
     text-align: center; }
-  /* line 70, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .nav-item {
     padding: 0 10px; }
-  /* line 74, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .nav-item-title {
     font-size: 0.825rem; }
-  /* line 78, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .site-main {
     min-height: 100vh; }
-  /* line 82, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .pagination {
     padding-bottom: 3em; }
-  /* line 86, /Users/samueldost/Projects/islay/app/styles/_mobile.scss */
   .newer-posts,
   .older-posts {
     padding: 0 10px; } }
 
 @media screen and (min-width: 680px) and (max-width: 1020px) {
-  /* line 2, /Users/samueldost/Projects/islay/app/styles/_tablet.scss */
   .cards {
     display: -webkit-box;
     display: -moz-box;
@@ -1046,6 +913,7 @@ picture {
     flex-flow: row wrap;
     margin: 0 auto;
     max-width: 680px; } }
+
 
 
 /*# sourceMappingURL=styles.css.map*/
