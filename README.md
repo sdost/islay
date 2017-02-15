@@ -11,6 +11,9 @@
 
 ## Changeset
 
+__0.3.16__
+* Removed Disqus settings from theme.
+
 __0.3.12__
 * Bug fix for Disqus.
 
