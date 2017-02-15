@@ -11,7 +11,7 @@
 
 ## Changeset
 
-0.3.12
+__0.3.12__
 * Bug fix for Disqus.
 
 __0.3.10__
