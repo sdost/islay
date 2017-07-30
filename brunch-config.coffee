@@ -3,14 +3,11 @@ neat = require("bourbon-neat")
 
 module.exports = config:
   conventions:
-    assets:  /^src\/public\//
-    ignored: /^(src\/styles\/overrides|(.*?\/)?[_]\w*)/
-  paths:
-    public: 'dist'
+    assets: /^app\/public\//
   files:
     stylesheets:
       joinTo:
-        'assets/css/styles.css': /^(src|vendor)/
+        'assets/css/styles.css': /^(app|vendor)/
       order:
         before: [
           'vendor/styles/font-awesome.min.css'
@@ -21,7 +18,7 @@ module.exports = config:
 
     javascripts:
       joinTo:
-        'assets/js/scripts.js': /^src/
+        'assets/js/scripts.js': /^app/
         'assets/js/vendor.js': /^vendor/
 
   plugins:
@@ -31,7 +28,7 @@ module.exports = config:
       enabled: true
     assetsmanager:
       copyTo:
-        'assets': ['images', 'fonts']
+        'assets': ['app/images', 'app/fonts']
     sass:
       options:
         mode: 'native'
