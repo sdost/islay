@@ -1,5 +1,5 @@
 <div id="post-{{id}}" class="{{post_class}}">
-  <div class="post-header" style="background-image:url({{#if image}}{{image}}{{else}}http://lorempixel.com/1920/1080/fashion/{{id}}{{/if}});">
+  <div class="post-header" style="background-image:url({{#if feature_image}}{{img_url feature_image}}{{else}}http://lorempixel.com/1920/1080/fashion/{{id}}{{/if}});">
     <div class="post-title">
       <h1 class="post-title-header">{{title}}</h1>
       {{#author}}

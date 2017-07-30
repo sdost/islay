@@ -1,6 +1,6 @@
 <div id="post-{{id}}" class="card{{#if featured}} featured{{/if}}">
   <div class="card-img-container">
-    <a class="card-img" href="{{url}}" style="background-image:url({{#if image}}{{image}}{{else}}http://lorempixel.com/640/480/fashion/{{id}}{{/if}});"></a>
+    <a class="card-img" href="{{url}}" style="background-image:url({{#if feature_image}}{{img_url feature_image}}{{else}}http://lorempixel.com/640/480/fashion/{{id}}{{/if}});"></a>
   </div>
   <div class="card-content">
     <div class="card-meta">
