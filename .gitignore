@@ -1,6 +1,7 @@
-node_modules/
+node_modules
 .DS_Store
 .node-version
 npm-debug.log
-.vscode/
-public/
+.vscode
+public
+!app/public
