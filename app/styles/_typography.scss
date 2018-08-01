@@ -171,4 +171,21 @@
     box-sizing: border-box;
     max-width: 100%;
   }
+
+  figure {
+    &.kg-embed-card {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &.kg-image-card {
+      &.kg-image-full {
+        margin-left: -$base-spacing;
+        margin-right: -$base-spacing;
+      }
+      &.kg-image-wide {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+  }
 }

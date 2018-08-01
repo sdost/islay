@@ -2,6 +2,8 @@ bourbon = require("bourbon")
 neat = require("bourbon-neat")
 
 module.exports = config:
+  paths:
+    public: 'dist'
   conventions:
     assets: /^app\/public\//
   files:
