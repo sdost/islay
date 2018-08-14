@@ -1,34 +1,34 @@
 {
-  "name": "islay",
-  "description": "Theme for Ghost",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sdost/islay.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sdost/islay/issues"
-  },
-  "version": "0.3.18",
-  "files": [
-    "assets",
-    "partials",
-    "*.hbs"
-  ],
-  "scripts": {
-    "start": "brunch watch --server",
-    "prepublish": "brunch build"
-  },
-  "devDependencies": {
-    "assetsmanager-brunch": "^1.8.1",
-    "bourbon": "^4.2.7",
-    "bourbon-neat": "^1.7.4",
-    "brunch": "^2.0",
-    "clean-css-brunch": "^2.0",
-    "css-brunch": "^2.0",
-    "javascript-brunch": "^2.0",
-    "normalize-scss": "^7.0.1",
-    "sass-brunch": "^2.0",
-    "uglify-js-brunch": "^2.0"
-  }
+    "name": "islay",
+    "description": "Theme for Ghost",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sdost/islay.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sdost/islay/issues"
+    },
+    "version": "0.3.19",
+    "files": [
+        "assets",
+        "partials",
+        "*.hbs"
+    ],
+    "scripts": {
+        "start": "brunch watch --server",
+        "prepublish": "brunch build"
+    },
+    "devDependencies": {
+        "assetsmanager-brunch": "^1.8.1",
+        "bourbon": "^4.2.7",
+        "bourbon-neat": "^1.7.4",
+        "brunch": "^2.0",
+        "clean-css-brunch": "^2.0",
+        "css-brunch": "^2.0",
+        "javascript-brunch": "^2.0",
+        "normalize-scss": "^7.0.1",
+        "sass-brunch": "^2.0",
+        "uglify-js-brunch": "^2.0"
+    }
 }
