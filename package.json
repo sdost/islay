@@ -2,12 +2,22 @@
     "name": "islay",
     "description": "Theme for Ghost",
     "license": "MIT",
+    "engines": {
+        "ghost": ">=1.0.0"
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/sdost/islay.git"
     },
     "bugs": {
         "url": "https://github.com/sdost/islay/issues"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
     },
     "version": "0.3.20",
     "files": [
