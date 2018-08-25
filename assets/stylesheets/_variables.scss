@@ -1,0 +1,47 @@
+// Typography
+$base-font-family: $sans-serif;
+$heading-font-family: $sans-serif;
+
+// Font Sizes
+$base-font-size: 1rem !default;
+
+// Line height
+$base-line-height: 1.5 !default;
+$heading-line-height: 1.2 !default;
+
+// Other Sizes
+$base-border-radius: 3px !default;
+$base-spacing: $base-line-height * 1em !default;
+$small-spacing: $base-spacing / 2 !default;
+$base-z-index: 0;
+
+// Colors
+$neutral-color: rgba(202, 202, 204, 1);
+$shadow-color: rgba(50, 71, 102, 1);
+$highlight-color: rgba(244, 230, 204, 1);
+$accent-color: rgba(57, 83, 106, 1);
+$base-color: rgba(62, 78, 127, 1);
+$white: rgba(255, 255, 255, 1);
+
+// Border
+$base-border-color: $neutral-color;
+$base-border: 1px solid $base-border-color;
+
+// Font Colors
+$base-background-color: lighten($highlight-color, 10%);
+$secondary-background-color: tint($base-border-color, 75%);
+$base-font-color: shade($neutral-color, 60%);
+$action-color: lighten($accent-color, 20%);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+$max-width: 1020px;
+$mobile-size: 425px;
+$tablet-size: 680px;
+$desktop-size: $max-width;

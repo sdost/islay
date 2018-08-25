@@ -1,0 +1,27 @@
+// Site
+.site-body {
+  background-color: $base-background-color;
+  font-size: 16px;
+  margin: 0;
+}
+
+.site-wrapper {
+  @include grid-container;
+}
+
+.site-nav {
+  box-sizing: border-box;
+}
+
+.site-main {
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+}
+
+.site-footer {
+  box-sizing: border-box;
+  clear: both;
+  height: 30px;
+  position: relative;
+}

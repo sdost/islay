@@ -1,0 +1,18 @@
+.footer-copyright {
+  color: $action-color;
+  font-family: $sans-serif;
+  line-height: $base-line-height;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-copyright-text {
+  font-size: $base-font-size * .8;
+  vertical-align: middle;
+}
+
+.footer-copyright-separator {
+  font-size: $base-font-size;
+  vertical-align: middle;
+}

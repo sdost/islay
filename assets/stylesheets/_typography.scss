@@ -1,0 +1,193 @@
+.typography-article {
+  @include clearfix;
+
+  font-family: $typography;
+  line-height: 1.6;
+  overflow: hidden;
+  text-align: left;
+  word-wrap: break-word;
+
+  a {
+    background-color: transparent;
+    color: $action-color;
+
+    &:active,
+    &:hover {
+      color: lighten($action-color, 10%);
+      outline: 0;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    line-height: $heading-line-height;
+    position: relative;
+  }
+
+  h1 {
+    font-size: $base-font-size * 2.25;
+    margin-bottom: .67em;
+    margin-top: .67em;
+  }
+
+  h2 {
+    font-size: $base-font-size * 1.75;
+    margin-bottom: .83em;
+    margin-top: .83em;
+  }
+
+  h3 {
+    font-size: $base-font-size * 1.5;
+    line-height: $base-line-height * 0.95;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  h4 {
+    font-size: $base-font-size * 1.25;
+    margin-bottom: 1.33em;
+    margin-top: 1.33em;
+  }
+
+  h5 {
+    font-size: $base-font-size;
+    margin-bottom: 1.67em;
+    margin-top: 1.67em;
+  }
+
+  h6 {
+    font-size: $base-font-size;
+    margin-bottom: 2.33em;
+    margin-top: 2.33em;
+  }
+
+  p,
+  blockquote,
+  ul,
+  ol,
+  dl,
+  table,
+  pre {
+    font-size: $base-font-size;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  blockquote {
+    margin: $small-spacing;
+    padding: $small-spacing;
+    quotes: '“' '”' '‘' '’';
+
+    &:before {
+      color: $action-color;
+      content: open-quote;
+      font-size: $base-font-size * 4;
+      line-height: $base-line-height * 0.2;
+      margin-right: $small-spacing * 0.1;
+      vertical-align: -.45em;
+    }
+
+    &:after {
+      color: $action-color;
+      content: close-quote;
+      font-size: $base-font-size * 4;
+      line-height: $base-line-height * 0.2;
+      margin-left: $small-spacing * 0.1;
+      vertical-align: -.45em;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      display: inline;
+      font-style: italic;
+    }
+  }
+
+  hr {
+    border-bottom: 1px solid shade($action-color, 20%);
+    box-sizing: content-box;
+    height: 0;
+    margin: $base-spacing auto;
+    width: 75%;
+  }
+
+  code {
+    font-family: $sans-serif-mono;
+    font-size: $base-font-size;
+  }
+
+  pre {
+    border-radius: $base-border-radius * 1.5;
+    margin: $small-spacing 0;
+  }
+
+  ul {
+    @extend %default-ul;
+  }
+
+  ol {
+    @extend %default-ol;
+  }
+
+  ul,
+  ol {
+    font-size: $base-font-size;
+    font-weight: 400;
+    line-height: $base-line-height;
+    padding-left: 2em;
+
+    ol {
+      list-style-type: lower-roman;
+
+      ol {
+        list-style-type: lower-alpha;
+      }
+    }
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  figure {
+    &.kg-embed-card {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &.kg-image-card {
+      &.kg-width-full {
+        margin-left: -$base-spacing;
+        margin-right: -$base-spacing;
+      }
+
+      &.kg-width-wide {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+  }
+}

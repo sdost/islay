@@ -1,0 +1,44 @@
+$menu-item-color: $action-color;
+
+.nav-items {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-item {
+  border: 1px solid transparent;
+  color: $menu-item-color;
+  display: inline-block;
+  padding: 0 20px;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: lighten($menu-item-color, 20%);
+  }
+}
+
+.nav-current {
+  border-color: $menu-item-color;
+  border-radius: $base-border-radius;
+  color: $menu-item-color;
+}
+
+.nav-item-title {
+  font-family: $sans-serif;
+  font-size: $base-font-size * 1.2;
+  font-weight: 400;
+  margin: 5px auto;
+  text-align: right;
+  text-shadow: 0 -.0em 0 darken($base-color, 10%);
+}
+
+.nav-item-link {
+  color: $menu-item-color;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: lighten($menu-item-color, 20%);
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "islay",
+  "description": "A ghost them",
+  "version": "1.0.1",
+  "engines": {
+    "ghost": ">=1.20.0"
+  },
+  "author": {
+    "name": "Samuel Dost",
+    "email": "samuel.dost@gmail.com",
+    "url": "https://deprogramming.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sdost/islay"
+  },
+  "keywords": [
+    "sass",
+    "bourbon",
+    "neat",
+    "gulp",
+    "ghost",
+    "theme",
+    "ghost-theme"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "bourbon": "^5.0.0-beta.8",
+    "bourbon-neat": "^2.1.0",
+    "chalk": "^2.1.0",
+    "gscan": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4",
+    "gulp-zip": "^4.0.0",
+    "jshint": "^2.9.6",
+    "jshint-stylish": "^2.2.1",
+    "lodash": "^4.17.10",
+    "run-sequence": "^2.2.0"
+  },
+  "license": "MIT",
+  "config": {
+    "posts_per_page": 9
+  }
+}

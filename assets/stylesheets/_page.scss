@@ -1,0 +1,11 @@
+.page-content {
+  display: block;
+  margin-left: $base-spacing;
+  margin-right: $base-spacing;
+}
+
+.page-body {
+  box-sizing: content-box;
+  margin: 0 auto;
+  max-width: $max-width;
+}

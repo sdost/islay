@@ -1,0 +1,135 @@
+$card-border: $base-border;
+$card-background: darken($base-background-color, 2%);
+$card-header-background: $card-background;
+$card-hover-background: lighten($base-background-color, 2%);
+$card-image-height: 175px !default;
+$card-content-min-height: 180px !default;
+$card-margin: 20px !default;
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  max-width: $max-width;
+}
+
+.cards-header {
+  border-bottom: 1px solid $base-color;
+  margin: 0 $base-spacing;
+  padding: $base-spacing 0;
+  text-align: center;
+}
+
+.cards-header-img {
+  transition: all $base-duration $base-timing;
+  background: $card-background;
+  border: 4px solid $card-background;
+  border-radius: 50%;
+  height: 120px;
+  margin: 0 auto;
+  width: 120px;
+}
+
+.cards-header-title {
+  color: $base-font-color;
+  font-family: $sans-serif;
+  font-size: $base-font-size;
+  font-weight: 400;
+  margin: 0;
+}
+
+.cards-header-byline {
+  font-size: $base-font-size * 0.83;
+  font-weight: 400;
+  margin-top: $small-spacing;
+  padding: $base-spacing;
+}
+
+.card {
+  transition: all $base-duration $base-timing;
+  border-radius: $base-border-radius;
+  box-shadow: 0 0.03em 0.06em darken($base-background-color, 20%);
+  margin: $card-margin;
+  width: 300px;
+  position: relative;
+
+  &:focus,
+  &:hover,
+  &:active {
+    .card-content-link {
+      color: lighten($action-color, 10%);
+    }
+
+    .card-content {
+      background-color: $card-hover-background;
+    }
+
+    .meta-author-img {
+      background: $card-hover-background;
+      border-color: $card-hover-background;
+    }
+  }
+}
+
+.card-img-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.card-img {
+  @include border-top-radius($base-border-radius);
+
+  background-position: top center;
+  background-size: cover;
+  display: block;
+  height: $card-image-height;
+}
+
+.card-content {
+  @include border-bottom-radius($base-border-radius);
+
+  background: $card-header-background;
+  border-bottom: $card-border;
+  min-height: $card-content-min-height;
+  padding: $small-spacing $small-spacing $base-spacing;
+  position: relative;
+  text-align: center;
+}
+
+.card-content-title {
+  font-family: $sans-serif;
+  font-size: $base-font-size * 2;
+  font-style: normal;
+  font-weight: 400;
+  line-height: $heading-line-height * 0.8;
+}
+
+.card-content-link {
+  color: $action-color;
+}
+
+.meta-box {
+  margin-right: 20px;
+}
+
+.card-meta {
+  margin-bottom: $base-spacing;
+}
+
+.card-meta-item {
+  font-family: $sans-serif;
+  font-size: $base-font-size * 0.8;
+}
+
+.meta-author-img {
+  transition: all $base-duration $base-timing;
+  background: $card-header-background;
+  border: 0.2em solid $card-header-background;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  top: -25px;
+  width: 50px;
+}
